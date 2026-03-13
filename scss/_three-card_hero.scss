@@ -1,7 +1,8 @@
+@use "variables" as *;
 .three-card_hero {
 	padding: 75px 0;
 	overflow: hidden;
-	background-image: linear-gradient(to right, color.scale($teal, $lightness: -35%), $teal);
+	background-image: linear-gradient(to right, $lt-teal, $teal);
 
 	@media (max-width: 960px) {
 		padding: 1rem 0;

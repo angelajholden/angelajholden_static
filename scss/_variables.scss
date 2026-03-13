@@ -1,10 +1,15 @@
+// sass --watch scss/styles.scss:styles.css --style compressed
+
 /* Color Theme Swatches in Hex */
 $navy: #1d506f;
 $teal: #44878c;
+$dk-teal: #134e52;
+$lt-teal: #5eb1b7;
 $green: #37736a;
 $mint: #89bfac;
 $yellow: #d7cc8e;
-$lt-navy: lighten($navy, 15%);
+$dk-navy: #143a51;
+$lt-navy: #29678e;
 
 $white: #fff;
 $black: #222;
@@ -15,19 +20,17 @@ $lt-gray: #f8f8f8;
 $links: #13599f;
 $red: #d22b2b;
 
-/* Color Theme Swatches in RGBA */
-$Green-Polygon-1-rgba: rgba(29, 80, 111, 1);
-$Green-Polygon-2-rgba: rgba(68, 135, 140, 1);
-$Green-Polygon-3-rgba: rgba(55, 115, 106, 1);
-$Green-Polygon-4-rgba: rgba(137, 191, 172, 1);
-$Green-Polygon-5-rgba: rgba(215, 204, 142, 1);
-
 // Linear Gradient
-// background-image: linear-gradient(to right, color.scale($teal, $lightness: -25%), $teal);
+// background-image: linear-gradient(to right, $lt-teal, $teal);
 
-/* Color Theme Swatches in HSLA */
-// $Green-Polygon-1-hsla: hsla(202, 58, 27, 1);
-// $Green-Polygon-2-hsla: hsla(184, 34, 40, 1);
-// $Green-Polygon-3-hsla: hsla(171, 35, 33, 1);
-// $Green-Polygon-4-hsla: hsla(158, 29, 64, 1);
-// $Green-Polygon-5-hsla: hsla(50, 47, 70, 1);
+@mixin bold-section-heading {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color: $dk-gray;
+	margin-bottom: 1rem;
+}

@@ -1,3 +1,4 @@
+@use "variables" as *;
 .dots {
 	padding: 30px 0;
 	background-color: #fafafa;
@@ -20,7 +21,7 @@
 		border-radius: 50%;
 
 		&:nth-of-type(5n + 1) {
-			background-color: lighten($navy, 10%);
+			background-color: $lt-navy;
 		}
 
 		&:nth-of-type(5n + 2) {

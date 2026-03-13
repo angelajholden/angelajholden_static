@@ -1,9 +1,10 @@
+@use "variables" as *;
 .header {
 	position: sticky;
 	top: 0;
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-image: linear-gradient(to right, color.scale($navy, $lightness: 12.5%), $navy);
+	background-image: linear-gradient(to right, $navy, $lt-navy, $navy);
 	z-index: 1;
 }
 
@@ -87,7 +88,9 @@
 			background-color: $white;
 			transform-origin: center center;
 			transform: rotateZ(0) translate(0, 0);
-			transition: transform 350ms ease, width 200ms ease;
+			transition:
+				transform 350ms ease,
+				width 200ms ease;
 		}
 
 		&:active > div,

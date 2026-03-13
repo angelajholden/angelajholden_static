@@ -1,3 +1,4 @@
+@use "variables" as *;
 .hero {
 	position: relative;
 
@@ -95,14 +96,14 @@
 		position: relative;
 		padding: 6rem;
 		width: 50%;
-		background-image: linear-gradient(to right, $navy, lighten($navy, 10%));
+		background-image: linear-gradient(to right, $navy, $lt-navy);
 
 		&::before {
 			content: "";
 			display: block;
 			width: calc(100% - 6rem);
 			height: calc(100% - 6rem);
-			border: 3px solid darken($navy, 2.5%);
+			border: 3px solid $dk-navy;
 			position: absolute;
 			top: 3rem;
 			left: 3rem;

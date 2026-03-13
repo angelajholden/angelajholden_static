@@ -1,3 +1,4 @@
+@use "variables" as *;
 .consulting {
 	section {
 		padding: clamp(1rem, 3.5vw, 4rem) 1rem;
@@ -62,7 +63,7 @@
 
 .consulting_hero {
 	color: $white;
-	background-image: linear-gradient(to right, rgba(color.scale($teal, $lightness: -15%), 0.9) 0%, rgba(color.scale($teal, $lightness: -15%), 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
+	background-image: linear-gradient(to right, rgba($lt-teal, 0.9) 0%, rgba($lt-teal, 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -161,7 +162,7 @@
 		position: relative;
 		width: calc((100% - 4rem) / 3);
 		padding: 3rem;
-		background-image: linear-gradient(to bottom right, color.scale($teal, $lightness: -25%), $teal);
+		background-image: linear-gradient(to bottom right, $lt-teal, $teal);
 
 		&::before {
 			content: "";
@@ -171,7 +172,7 @@
 			width: calc(100% - 3rem);
 			height: calc(100% - 3rem);
 			border: 2px solid;
-			border-image: linear-gradient(to bottom right, $teal, color.scale($teal, $lightness: -25%)) 1;
+			border-image: linear-gradient(to bottom right, $teal, $lt-teal) 1;
 			pointer-events: none;
 		}
 
@@ -195,7 +196,7 @@
 
 .consulting_list-items {
 	color: $white;
-	background-image: linear-gradient(to right, $navy, color.scale($navy, $lightness: 10%));
+	background-image: linear-gradient(to right, $navy, $lt-navy);
 
 	.secondary-heading {
 		color: $white;
@@ -361,7 +362,7 @@ section.project_link-guidelines {
 		width: 50%;
 		padding: 5rem 5rem 3rem;
 		color: $white;
-		background-image: linear-gradient(to bottom right, color.scale($teal, $lightness: -25%), $teal);
+		background-image: linear-gradient(to bottom right, $lt-teal, $teal);
 
 		&::before {
 			content: "";
@@ -371,7 +372,7 @@ section.project_link-guidelines {
 			width: calc(100% - 4rem);
 			height: calc(100% - 4rem);
 			border: 2px solid;
-			border-image: linear-gradient(to bottom right, $teal, color.scale($teal, $lightness: -25%)) 1;
+			border-image: linear-gradient(to bottom right, $teal, $lt-teal) 1;
 			pointer-events: none;
 		}
 

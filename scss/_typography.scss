@@ -1,3 +1,4 @@
+@use "variables" as *;
 /*
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 300 to 700
@@ -75,18 +76,6 @@
 	line-height: 1.25;
 	color: $green;
 	margin: 0 0 0.5rem;
-}
-
-@mixin bold-section-heading {
-	font-family: "Lato", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 0.85rem;
-	text-transform: uppercase;
-	text-align: center;
-	letter-spacing: 2px;
-	color: $dk-gray;
-	margin-bottom: 1rem;
 }
 
 p {
