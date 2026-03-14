@@ -63,7 +63,7 @@
 
 .consulting_hero {
 	color: $white;
-	background-image: linear-gradient(to right, rgba($lt-teal, 0.9) 0%, rgba($lt-teal, 0.45) 75%, transparent 100%), url("images/low-poly-geometric.jpg");
+	background-image: linear-gradient(to right, rgba($dk-teal, 0.9) 0%, rgba($dk-teal, 0.45) 90%, transparent 100%), url("images/low-poly-geometric.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -162,7 +162,7 @@
 		position: relative;
 		width: calc((100% - 4rem) / 3);
 		padding: 3rem;
-		background-image: linear-gradient(to bottom right, $lt-teal, $teal);
+		background-image: linear-gradient(to bottom right, $teal, $dk-teal);
 
 		&::before {
 			content: "";
@@ -172,7 +172,7 @@
 			width: calc(100% - 3rem);
 			height: calc(100% - 3rem);
 			border: 2px solid;
-			border-image: linear-gradient(to bottom right, $teal, $lt-teal) 1;
+			border-image: linear-gradient(to bottom right, $dk-teal, $teal) 1;
 			pointer-events: none;
 		}
 
@@ -196,7 +196,7 @@
 
 .consulting_list-items {
 	color: $white;
-	background-image: linear-gradient(to right, $navy, $lt-navy);
+	background-image: linear-gradient(to right, $dk-navy, $navy);
 
 	.secondary-heading {
 		color: $white;
@@ -228,7 +228,7 @@
 
 	li {
 		margin: 0 0 1rem;
-		border-bottom: 2px solid $navy;
+		border-bottom: 2px solid $lt-navy;
 
 		strong {
 			display: block;
@@ -362,7 +362,7 @@ section.project_link-guidelines {
 		width: 50%;
 		padding: 5rem 5rem 3rem;
 		color: $white;
-		background-image: linear-gradient(to bottom right, $lt-teal, $teal);
+		background-image: linear-gradient(to bottom right, $teal, $dk-teal);
 
 		&::before {
 			content: "";
@@ -372,7 +372,7 @@ section.project_link-guidelines {
 			width: calc(100% - 4rem);
 			height: calc(100% - 4rem);
 			border: 2px solid;
-			border-image: linear-gradient(to bottom right, $teal, $lt-teal) 1;
+			border-image: linear-gradient(to bottom right, $dk-teal, $teal) 1;
 			pointer-events: none;
 		}
 

@@ -156,7 +156,8 @@
 			&:active,
 			&:focus {
 				& > svg {
-					fill: $yellow;
+					fill: $navy;
+					background-color: $white;
 				}
 			}
 		}
@@ -167,7 +168,11 @@
 			height: 48px;
 			padding: 0.5rem;
 			fill: $white;
-			transition: fill 300ms ease-in-out;
+			border-radius: 5px;
+			background-color: transparent;
+			transition:
+				fill 300ms ease-in-out,
+				background-color 300ms ease-in-out;
 
 			&.no-padding {
 				padding: 0;

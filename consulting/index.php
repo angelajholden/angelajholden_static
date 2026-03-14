@@ -16,7 +16,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<header class="content-header">
 					<h1 class="primary-heading">Frontend Code Reviews &amp; Consulting</h1>
-					<p><strong>Stream-Style Sessions:</strong> Practical, no-nonsense guidance for developers who want cleaner, faster, more accessible websites.</p>
+					<p>I help developers who want cleaner, faster and more accessible frontend code.</p>
 					<p><a class="button white-border-green" href="https://calendly.com/angelajholden" target="_blank">Book Your Session</a></p>
 				</header>
 				<figure class="image">
@@ -31,20 +31,21 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<p>I help developers and small teams improve their frontend projects through structured, actionable, empathetic feedback.</p>
 				</aside>
 				<aside class="consulting_item">
-					<p>My focus is on semantic HTML, CSS, accessibility and organic SEO — so your site works for everyone, and holds up over time.</p>
+					<p>My focus is on semantic HTML, vanilla CSS, JavaScript, accessibility and organic SEO. So your site works for everyone.</p>
 				</aside>
 				<aside class="consulting_item">
-					<p>This isn't a design critique; it's frontend guidance, grounded in 12+ years of real-world experience building, testing and launching websites.</p>
+					<p>It's not a design critique. It's frontend guidance from 13 years of real-world experience building, testing and launching websites.</p>
 				</aside>
 			</div>
 		</section>
 		<section class="consulting_list-items">
 			<h2 class="secondary-heading">What I Review &amp; Advise On</h2>
 			<div class="wrap">
-				<p>You get more than a checklist — this is a hands-on, collaborative audit. We'll work through your site or app together, fixing issues in real time, and I'll show you how to troubleshoot like a pro so you leave with lasting skills, not just a patched project.</p>
+				<p>This is a collaborative audit.</p>
+				<p>We'll work through your site or app together, fixing issues in real time, and I'll show you how to troubleshoot so you leave with lasting skills, not just a patched project.</p>
 				<ul>
 					<li><strong>Semantic HTML: </strong> Correct element usage and logical structure, with guidance on reading and applying MDN documentation.</li>
-					<li><strong>CSS Efficiency: </strong> Maintainable styles, reduced duplication, and real-time problem solving to sharpen your instincts.</li>
+					<li><strong>CSS Efficiency: </strong> Maintainable styles, reduced duplication, and real time problem solving to sharpen your instincts.</li>
 					<li><strong>Accessibility: </strong> Keyboard navigation, ARIA accuracy, and inclusive markup, tested both manually and with AI tools.</li>
 					<li><strong>Performance & SEO: </strong> Load times, mobile responsiveness, and spotting which PageSpeed Insights fixes are worth doing.</li>
 					<li><strong>JavaScript Review: </strong> Refactoring messy, legacy code (including jQuery) into modern vanilla JS, plus AI-assisted debugging.</li>
@@ -67,7 +68,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		</section>
 		<section class="consulting_price-table">
 			<h2 class="secondary-heading">Pricing</h2>
-			<p><strong>From my live streams to your code.</strong> If you've seen me on YouTube, you already know how I review code — clear, detailed, and practical. Now you can book that same process 1:1 for your own project.</p>
+			<p>If you've seen me on YouTube, you already know how I review code; clear, detailed and practical. Now you can book that same process 1:1 for your own project.</p>
 			<table class="table">
 				<thead>
 					<tr>
@@ -80,7 +81,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<tr>
 						<th data-label="Service" scope="row">Live 1:1 (50 min)</th>
 						<td data-label="What You Get">
-							<p>Real-time problem solving over Zoom. Bring your site, repo, or specific questions — we'll review, debug, and prioritize fixes together.</p>
+							<p>Real time problem solving over Zoom. Bring your site, repo or specific questions and we'll review, debug and prioritize fixes together.</p>
 						</td>
 						<td data-label="Rate (USD)">$200</td>
 					</tr>
@@ -115,7 +116,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</ul>
 				</article>
 				<article class="guideline_item">
-					<p>For security, I can't open the following items. If you're unsure, just ask before our session — I'm happy to confirm.</p>
+					<p>For security, I can't open the following items. If you're unsure, just ask before our session and I'm happy to confirm.</p>
 					<ul class="list">
 						<li>ZIP files or other file downloads</li>
 						<li>Unfamiliar file-sharing sites</li>
