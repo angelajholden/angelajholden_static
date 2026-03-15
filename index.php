@@ -87,7 +87,7 @@ include_once (__DIR__) . '/includes/head.php';
 					<p>
 						<a class="cta-link blue-solid" href="https://youtu.be/BORta0DWUIY" target="_blank">Watch on YouTube
 						</a>
-						<a class="cta-link blue-solid" href="https://youtu.be/BORta0DWUIY" target="_blank">Documentation
+						<a class="cta-link blue-solid" href="https://github.com/angelajholden/devops" target="_blank">DevOps for Frontend
 						</a>
 					</p>
 				</div>
