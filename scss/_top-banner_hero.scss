@@ -8,7 +8,19 @@
 	p {
 		color: $white;
 		margin: 0;
-		text-shadow: 2px 2px 1px rgba($color: $black, $alpha: 0.33);
+		// text-shadow: 2px 2px 1px rgba($color: $black, $alpha: 0.33);
+	}
+
+	a {
+		text-decoration-color: $white;
+		color: $white;
+		transition: text-decoration-color 300ms ease-in-out;
+	}
+
+	a:focus,
+	a:hover,
+	a:active {
+		text-decoration-color: transparent;
 	}
 
 	@media (max-width: 600px) {

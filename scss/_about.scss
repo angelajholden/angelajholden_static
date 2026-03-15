@@ -182,6 +182,20 @@
 .inspiration_sidebar {
 	width: 30%;
 
+	.figure {
+		/* use a fixed width (px) and max-width: 100% if you ARE NOT using css grid */
+		width: 100%;
+		height: auto;
+		aspect-ratio: 9 / 16;
+	}
+
+	iframe {
+		display: block;
+		width: 100%;
+		height: 100%;
+		background-color: $black;
+	}
+
 	p {
 		font-size: 0.95rem;
 		line-height: 1.55;

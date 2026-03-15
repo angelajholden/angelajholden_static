@@ -2,7 +2,7 @@
 .featured-video_section {
 	padding: 75px 0;
 
-	@media (max-width: 768px) {
+	@media (max-width: 960px) {
 		padding: 25px 0;
 	}
 }
@@ -18,7 +18,7 @@
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
-		align-items: center;
+		align-items: flex-start;
 		padding: 0;
 	}
 }
