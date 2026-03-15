@@ -5,11 +5,95 @@
 
 ## Projects
 
+### Practice Layouts
+
+- In progress
+
+### 30 Day of Vanilla JavaScript
+
+- In progress
+
+### The Lemon Stack
+
+- In progress
+- https://github.com/angelajholden/the-lemon-stack
+
+### Colorado Web Project
+
+- In progress
+- https://github.com/angelajholden/colorado
+
+### Scenic
+
+- https://github.com/angelajholden/scenic
+- https://scenic.practicelayouts.com/
+
+### Coffee, but no Tea
+
+- https://github.com/angelajholden/coffee-but-no-tea
+- https://coffee.practicelayouts.com/
+
+### Responsive Video Gallery
+
+- https://github.com/angelajholden/responsive-video-gallery
+- https://responsivevideogallery.com/
+
+### Italia (Ink Grid Layout)
+
+- https://github.com/angelajholden/ink-grid-layout
+- https://italia.practicelayouts.com/
+
+### Deploy a Website (sftp)
+
+- https://www.youtube.com/watch?v=szRgEyiX6Sk
+- https://github.com/angelajholden/devops/
+
+### Deploy a Website (rsync)
+
+- https://www.youtube.com/watch?v=BORta0DWUIY
+- https://github.com/angelajholden/devops/
+
+### Responsive Navbar Build (UI Snacks)
+
+- https://www.youtube.com/watch?v=qy_ctSLSuf4
+- https://github.com/angelajholden/ui-snacks/tree/main/navbar-timelapse
+- https://angelajholden.github.io/ui-snacks/navbar-timelapse/
+
+### Fiber &amp; Kraft (Homepage Clone)
+
+- https://www.youtube.com/watch?v=tYhZKDEosnA
+- https://github.com/angelajholden/homepage-clone
+- https://fiberandkraft.com/
+
+### Instagram Profile Grid
+
+- https://www.youtube.com/watch?v=oFFR4zx1Uss
+- https://github.com/angelajholden/ig-grid-profile
+- https://angelajholden.github.io/ig-grid-profile/
+
+### Solo Masonry
+
+- https://www.youtube.com/watch?v=32XwCadbGrQ
+- https://github.com/angelajholden/solo-masonry
+- https://solo-masonry.practicelayouts.com/
+
+### LaBelle (JavaScript Category Filter)
+
+- https://www.youtube.com/watch?v=aQsARcmmX4g
+- https://github.com/angelajholden/category-filter
+- https://angelajholden.github.io/category-filter/
+
+### San Mari Products
+
+- https://www.youtube.com/watch?v=0i4eJ6VUqwQ
+- https://github.com/angelajholden/san-mari-products
+- https://angelajholden.github.io/san-mari-products/
+
 ### Personal Portfolio Website | PHP, HTML, SCSS & JavaScript
 
 - https://www.youtube.com/playlist?list=PLiEcEGGtRVunuR44h5ey8rmOsldfRQhLO
 - https://github.com/angelajholden/portfolio
-- https://ajh-portfolio-f3ffe192dce2.herokuapp.com/
+- https://angelajholden.com/
 
 ### The Ocean | Blog website with HTML, SCSS & JavaScript
 
