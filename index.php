@@ -21,7 +21,7 @@ include_once (__DIR__) . '/includes/head.php';
 						<span>Develop.</span>
 						<span>Deploy.</span>
 					</h2>
-					<p>I'm Angela Holden, a frontend developer and software engieer in Saint Paul, MN. I'm available for freelancing and consulting. <a href="<?php echo BASE_URL; ?>contact/">Contact me</a> if you'd like help with your project.</p>
+					<p>I'm Angela Holden, a frontend developer and software engineer in Saint Paul, MN. I'm available for freelancing and consulting. <a href="<?php echo BASE_URL; ?>contact/">Contact me</a> if you'd like help with your project.</p>
 				</div>
 				<figure class="image">
 					<div class="image-container">
