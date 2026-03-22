@@ -1,9 +1,40 @@
-const button = document.querySelector(".mobile-button");
-const menu = document.querySelector(".navigation");
-const breakpoint = 960;
+const body = document.body;
+const href = window.location.href;
+const mobileButton = document.querySelector(".mobile-button");
+
+function youAreHere() {
+	const navItems = document.querySelectorAll(".nav_item");
+	if (!navItems.length) return;
+	navItems.forEach((link) => {
+		if (link.href === href) {
+			link.classList.add("active");
+		}
+	});
+}
+
+function toggleMenu() {
+	if (!mobileButton) return;
+	mobileButton.addEventListener("click", () => {
+		const isOpen = body.classList.toggle("menu_active");
+		mobileButton.setAttribute("aria-expanded", isOpen ? "true" : "false");
+		mobileButton.setAttribute("aria-label", isOpen ? "Close Menu" : "Open Menu");
+	});
+}
+
+function escapeKey() {
+	document.addEventListener("keydown", (e) => {
+		if (e.key !== "Escape") return;
+		if (body.classList.contains("menu_active")) {
+			body.classList.remove("menu_active");
+			mobileButton.setAttribute("aria-expanded", "false");
+			mobileButton.setAttribute("aria-label", "Open Menu");
+		}
+	});
+}
 
 function noOpener() {
 	const target = document.querySelectorAll('a[target="_blank"]');
+	if (!target.length) return;
 	target.forEach((link) => {
 		const rel = link.getAttribute("rel") || "";
 		if (!rel.includes("noopener")) {
@@ -12,99 +43,12 @@ function noOpener() {
 	});
 }
 
-function youAreHere() {
-	const links = document.querySelectorAll(".nav_item");
-	const href = window.location.href;
-	links.forEach((link) => {
-		// console.log(link.href);
-		if (link.href === href) {
-			link.classList.add("active");
-		}
-	});
-}
-
-function toggleMobileNavigation() {
-	const isExpanded = button.getAttribute("aria-expanded") === "true";
-
-	button.setAttribute("aria-expanded", String(!isExpanded));
-	button.setAttribute("aria-label", isExpanded ? "Open Menu" : "Close Menu");
-	button.classList.toggle("active", !isExpanded);
-
-	menu.setAttribute("aria-hidden", String(isExpanded));
-	menu.classList.toggle("active", !isExpanded);
-}
-
-function handleEscapeKey(event) {
-	if (event.key === "Escape" && button.getAttribute("aria-expanded") === "true") {
-		toggleMobileNavigation();
-	}
-}
-
-function handleResize() {
-	if (window.innerWidth >= breakpoint) {
-		// Desktop: reset to visible and neutral ARIA state
-		menu.removeAttribute("aria-hidden");
-		button.removeAttribute("aria-expanded");
-		button.setAttribute("aria-label", "Menu");
-		button.classList.remove("active");
-		menu.classList.remove("active");
-	} else {
-		// Mobile: ensure closed state is correctly set
-		menu.setAttribute("aria-hidden", "true");
-		button.setAttribute("aria-expanded", "false");
-		button.setAttribute("aria-label", "Open Menu");
-		button.classList.remove("active");
-		menu.classList.remove("active");
-	}
-}
-
-function initMobileNavigation() {
-	button.addEventListener("click", toggleMobileNavigation);
-	document.addEventListener("keydown", handleEscapeKey);
-	window.addEventListener("resize", handleResize);
-	handleResize(); // Run on load too
-}
-
-function videoBanner() {
-	const supportsVideo = !!document.createElement("video").canPlayType;
-	if (supportsVideo) {
-		const video = document.getElementById("video");
-		const playPause = document.getElementById("play-pause");
-		const play = document.querySelector(".play-button");
-		const pause = document.querySelector(".pause-button");
-
-		if (video) {
-			// Hide the default controls
-			video.controls = false;
-
-			// Set the initial button state for autoplay
-			play.classList.remove("active");
-			pause.classList.add("active");
-
-			playPause.addEventListener("click", (e) => {
-				if (video.paused || video.ended) {
-					video.play();
-					// add paused button svg
-					play.classList.remove("active");
-					pause.classList.add("active");
-				} else {
-					video.pause();
-					// add the play button svg
-					play.classList.add("active");
-					pause.classList.remove("active");
-				}
-			});
-		}
-	}
-}
-
 function animateOnScroll() {
 	const observerOptions = {
 		root: null, // Use the viewport as the container
 		rootMargin: "0px",
-		threshold: 0.25, // Trigger when 20% of the element is visible
+		threshold: 0.25, // Trigger when 25% of the element is visible
 	};
-
 	const animateOnScroll = (entries, observer) => {
 		entries.forEach((entry) => {
 			if (entry.isIntersecting) {
@@ -118,62 +62,24 @@ function animateOnScroll() {
 			}
 		});
 	};
-
 	const observer = new IntersectionObserver(animateOnScroll, observerOptions);
-
 	// Attach observer to each element
 	const elements = document.querySelectorAll(".animate__animated");
 	elements.forEach((el) => observer.observe(el));
 }
 
-function articleFilter() {
-	const buttons = document.querySelectorAll(".article-buttons button");
-	const articles = document.querySelectorAll(".article-item");
-
-	buttons.forEach((button) => {
-		button.addEventListener("click", () => {
-			const category = button.getAttribute("data-category");
-
-			// Update active button
-			buttons.forEach((btn) => btn.classList.remove("active"));
-			button.classList.add("active");
-
-			// Filter articles
-			articles.forEach((article) => {
-				const articleCategory = article.getAttribute("data-category");
-
-				if (category === "all" || category === articleCategory) {
-					article.style.display = "";
-				} else {
-					article.style.display = "none";
-				}
-			});
-		});
-	});
-}
-
-function urlField() {
-	const urlField = document.getElementById("page_url");
-	if (urlField) {
-		urlField.value = window.location.href;
-	}
-}
-
 function copyright() {
 	const date = document.getElementById("date");
 	const year = new Date().getFullYear();
-	if (date) {
-		date.innerHTML = year;
-	}
+	if (!date) return;
+	date.textContent = year;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	videoBanner();
-	animateOnScroll();
-	articleFilter();
-	copyright();
-	initMobileNavigation();
 	youAreHere();
+	toggleMenu();
+	escapeKey();
 	noOpener();
-	urlField();
+	animateOnScroll();
+	copyright();
 });

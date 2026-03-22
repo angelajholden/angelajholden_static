@@ -3,7 +3,7 @@
 	<div class="header_wrap">
 		<div class="primary-heading">
 			<a href="<?php echo BASE_URL; ?>">
-				<span class="access-hidden">Angela J Holden</span>
+				<span class="access-hidden">Angela J. Holden</span>
 				<svg aria-hidden="true" width="100%" height="100%" viewBox="0 0 1127 1298" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule: evenodd; clip-rule: evenodd; stroke-linejoin: round; stroke-miterlimit: 2">
 					<g transform="matrix(4.16667,0,0,4.16667,-912.532,272.434)">
 						<path d="M329.024,58.182C327.872,58.758 327.872,58.47 327.296,59.334L318.368,82.086C317.216,86.406 314.048,91.878 312.32,95.91L304.544,113.766C302.528,117.51 298.208,124.422 293.312,129.894C289.856,133.638 286.4,136.518 283.52,137.382C277.76,129.606 280.64,113.19 282.656,105.414C286.112,93.318 288.128,80.934 291.008,68.55C292.448,63.942 292.736,60.198 294.464,55.59C295.04,54.438 295.616,52.134 296.192,50.118C296.48,48.39 297.632,45.51 297.632,44.07C297.632,42.918 297.344,41.478 296.192,40.902C295.328,40.038 295.04,38.886 294.176,38.022C292.16,36.294 291.296,35.718 289.568,35.142C287.84,34.278 286.112,34.566 284.672,34.854C283.52,35.142 282.656,35.43 281.504,36.87C280.928,37.734 279.776,41.19 279.488,42.054L279.2,43.206C273.152,41.478 275.456,42.342 268.544,41.478C261.92,41.478 252.992,42.054 246.656,44.358C244.352,45.51 243.488,46.374 241.76,47.526C234.848,51.558 232.544,55.59 227.648,63.078C223.04,70.278 219.008,88.134 219.008,94.758C219.008,99.942 219.872,103.974 221.888,107.718C225.056,113.478 223.904,113.478 229.376,115.782C233.984,117.798 240.032,118.086 244.928,114.054L264.8,90.15C266.528,87.846 264.512,89.286 266.528,88.134L263.072,105.99C261.92,116.358 260.48,129.318 265.664,138.534C267.68,142.278 274.88,147.75 279.2,147.75C286.4,147.75 291.872,144.582 297.056,139.398C298.784,137.67 301.376,135.078 302.528,133.062L310.304,121.254L318.368,102.822C319.808,100.518 319.52,99.654 320.96,96.774C322.112,93.894 327.296,83.526 327.584,80.646C327.872,79.206 331.328,69.126 333.056,65.382C333.344,64.518 333.632,63.654 333.92,63.366C333.632,59.046 332.768,58.47 329.024,58.182ZM267.392,68.55C265.664,72.582 258.752,80.07 255.872,85.542C255.008,87.846 254.72,86.982 253.568,88.71L251.264,92.166C249.824,94.182 250.112,93.606 248.384,95.046C246.368,97.062 242.912,103.686 236.864,105.702C236,102.822 236.864,104.838 236.576,103.11C236,92.742 240.32,82.662 244.928,72.87C248.672,65.094 253.28,51.27 263.36,49.83C269.696,49.542 271.136,50.118 275.744,54.438C274.88,58.182 269.984,63.078 267.392,68.55Z" style="fill-rule: nonzero" />
@@ -13,13 +13,12 @@
 				</svg>
 			</a>
 		</div>
-		<button class="mobile-button" aria-label="Menu" aria-controls="mobile-menu">
-			<span class="access-hidden">Menu</span>
+		<button class="mobile-button" type="button" aria-label="Open Menu" aria-expanded="false" aria-controls="mobileMenu">
 			<div></div>
 			<div></div>
 			<div></div>
 		</button>
-		<nav id="mobile-menu" class="navigation" aria-label="Main navigation">
+		<nav id="mobileMenu" class="navigation">
 			<ul class="wrap">
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>">Home</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>about/">About</a></li>
@@ -27,7 +26,7 @@
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>contact/">Contact</a></li>
 				<li><a class="nav_item" href="<?php echo BASE_URL; ?>projects/">Projects</a></li>
 				<li><a class="nav_item" href="https://www.youtube.com/@angelajholden?sub_confirmation=1" target="_blank">YouTube
-						<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+						<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
 					</a>
 				</li>
 			</ul>

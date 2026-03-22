@@ -1,4 +1,5 @@
 @use "variables" as *;
+// Navigation
 .navigation {
 	position: static;
 	font-family: "Lato", sans-serif;
@@ -6,100 +7,131 @@
 	font-style: normal;
 	font-size: 1rem;
 	letter-spacing: 0.5px;
+}
 
-	@media (max-width: 960px) {
+.navigation .wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav_item {
+	padding: 0.75rem;
+	font-size: 1rem;
+	color: $white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration-color: transparent;
+	transition: text-decoration-color 300ms ease-in-out;
+}
+
+.nav_item.active,
+.nav_item:focus,
+.nav_item:hover,
+.nav_item:active {
+	text-decoration-color: $white;
+}
+
+.nav_item svg {
+	display: inline-block;
+	vertical-align: sub;
+	width: 20px;
+	height: 20px;
+	margin-left: 2px;
+}
+
+.mobile-button {
+	display: none;
+	width: 3rem;
+	height: 3rem;
+	position: relative;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.mobile-button div {
+	width: 32px;
+	height: 2px;
+	margin: 0.5rem auto;
+	background-color: $white;
+	transform-origin: center center;
+	transform: rotateZ(0) translate(0, 0);
+	transition:
+		transform 350ms ease,
+		width 200ms ease;
+}
+
+.mobile-button:active > div,
+.menu_active .mobile-button > div {
+	&:nth-of-type(1) {
+		transform: rotateZ(45deg) translate(6.5px, 6px);
+	}
+
+	&:nth-of-type(2) {
+		width: 0;
+	}
+
+	&:nth-of-type(3) {
+		transform: rotateZ(-45deg) translate(8px, -8px);
+	}
+}
+
+@media (max-width: 960px) {
+	.mobile-button {
+		display: block;
+	}
+
+	.navigation {
 		visibility: hidden;
 		position: fixed;
 		top: 0;
 		right: -320px;
 		width: 320px;
-		transform: translateX(0);
 		max-width: 100%;
-		height: 100vh;
+		height: 100dvh;
+		transform: translateX(0);
 		background-color: $navy;
-		pointer-events: none;
 		transition:
-			transform 300ms ease-in-out,
-			visibility 300ms ease-in-out;
-
-		&.active {
-			visibility: visible;
-			transform: translateX(-100%);
-			pointer-events: auto;
-		}
+			transform 300ms linear,
+			visibility 300ms linear;
 	}
-}
 
-.wrap {
-	.navigation & {
-		display: flex;
-		flex-flow: row nowrap;
-		justify-content: space-between;
+	.menu_active .navigation {
+		visibility: visible;
+		transform: translateX(-320px);
+	}
+
+	.navigation .wrap {
+		flex-flow: column nowrap;
+		justify-content: start;
 		align-items: center;
-		gap: 0.5rem;
-		margin: 0 auto;
-		padding: 0;
-		list-style-type: none;
-
-		// li:first-of-type {
-		// 	display: none;
-		// }
-
-		@media (max-width: 960px) {
-			flex-flow: column nowrap;
-			justify-content: start;
-			align-items: center;
-			gap: 0;
-			margin: 4.5rem auto 0;
-			height: 100%;
-
-			// li:first-of-type {
-			// 	display: block;
-			// }
-
-			li {
-				display: block;
-				width: 100%;
-				margin: 0;
-				border-bottom: 3px dotted $yellow;
-			}
-
-			li:last-of-type {
-				border-bottom: none;
-			}
-		}
-	}
-}
-
-.nav_item {
-	.navigation & {
-		padding: 0.75rem;
-		font-size: 1rem;
-		color: $white;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		text-decoration-color: transparent;
-		transition: text-decoration-color 300ms ease-in-out;
-
-		&.active,
-		&:focus,
-		&:hover,
-		&:active {
-			text-decoration-color: $white;
-		}
-
-		@media (max-width: 960px) {
-			display: inline-block;
-			padding: 1rem;
-			text-align: center;
-		}
+		gap: 0;
+		margin: 4.5rem auto 0;
+		height: 100%;
 	}
 
-	svg {
-		display: inline-block;
-		vertical-align: sub;
-		width: 20px;
-		height: 20px;
-		margin-left: 2px;
+	.navigation li {
+		display: block;
+		width: 100%;
+		margin: 0;
+		border-bottom: 3px dotted $yellow;
+	}
+
+	.navigation li:last-of-type {
+		border-bottom: none;
+	}
+
+	.nav_item {
+		display: block;
+		padding: 1rem;
+		text-align: left;
 	}
 }
