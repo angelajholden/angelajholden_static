@@ -3,14 +3,14 @@
 <html lang="en">
 
 <?php 
-$title = 'Angela J Holden | Frontend Developer &amp; Software Engineer';
-$description = 'Hi, I\'m Angela Holden. I build accessible, responsive websites and share the process through live streams, tutorials and developer mentorship.';
+$title = 'Angela J. Holden | Frontend Developer &amp; Software Engineer';
+$description = 'I\'m Angela Holden, a frontend developer and software engineer in Saint Paul, MN. I\'m available for freelancing and consulting. Contact me if you\'d like help with your project.';
 $noindex = false; // or true, if you want to block this specific page
 include_once (__DIR__) . '/includes/head.php';
 ?>
 
 <body>
-	<h1 class="access-hidden">Angela J Holden | Frontend Developer &amp; Software Engineer</h1>
+	<h1 class="access-hidden">Angela J. Holden | Frontend Developer &amp; Software Engineer</h1>
 	<?php include_once __DIR__ . '/includes/header.php'; ?>
 	<main id="content" class="main">
 		<section class="top-banner_hero animate__animated animate__fadeIn">
