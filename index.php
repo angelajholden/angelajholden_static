@@ -75,10 +75,10 @@ include_once (__DIR__) . '/includes/head.php';
 		</div>
 		<section class="featured-video_section">
 			<div class="heading-wrap">
-				<h2 class="secondary-heading">Featured Project</h2>
+				<h2 class="secondary-heading">Latest Tutorial</h2>
 			</div>
 			<div class="wrap">
-				<figure class="image animate__animated" data-animation="animate__fadeInUp">
+				<figure class="figure animate__animated" data-animation="animate__fadeInUp">
 					<img src="<?php echo BASE_URL; ?>images/angelajholden-deploy-to-digital-ocean.jpg" alt="YouTube thumbnail for How to Deploy a Website (Rsync)">
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
