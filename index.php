@@ -23,7 +23,7 @@ include_once (__DIR__) . '/includes/head.php';
 					</h2>
 					<p>I'm Angela Holden, a frontend developer and software engineer in Saint Paul, MN. I'm available for freelancing and consulting. <a href="<?php echo BASE_URL; ?>contact/">Contact me</a> if you'd like help with your project.</p>
 				</div>
-				<figure class="image">
+				<figure class="figure">
 					<div class="image-container">
 						<img src="<?php echo BASE_URL; ?>images/heidi-sheltie-dog-park-angelajholden.jpg" alt="Heidi the Sheltie at the dog park on a sunny day.">
 					</div>
