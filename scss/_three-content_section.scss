@@ -1,94 +1,74 @@
 @use "variables" as *;
 .three-content_section {
-	padding: 75px 0;
-
-	@media (max-width: 768px) {
-		padding: 1.5rem;
-	}
+	padding: clamp(1.5rem, 4vw, 3rem) 1rem;
 }
 
-.heading-wrap {
-	.three-content_section & {
-		text-align: center;
-
-		p {
-			max-width: 75ch;
-			margin: 0 auto 2rem;
-		}
-
-		strong {
-			color: $navy;
-		}
-
-		@media (max-width: 960px) {
-			p {
-				margin: 0 auto 1rem;
-			}
-		}
-	}
+.three-content_section .heading-wrap {
+	text-align: center;
 }
 
-.wrap {
-	.three-content_section & {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-around;
-		align-items: flex-start;
-		max-width: clamp(65rem, 90vw, 75rem);
-	}
+.three-content_section .heading-wrap strong {
+	color: $navy;
 }
 
-.content-item {
-	.three-content_section & {
-		width: 31.333%;
-		margin: 0;
-
-		p {
-			position: relative;
-			padding: 0 1.25rem;
-			font-size: 1rem;
-			line-height: 1.75;
-
-			&::before {
-				content: "";
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 5px;
-				height: 100%;
-				background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
-			}
-		}
-
-		@media (max-width: 768px) {
-			width: 100%;
-			margin: 0 0 1.5rem;
-		}
-	}
+.three-content_section .heading-wrap p {
+	max-width: 75ch;
+	margin: 0 auto 2rem;
 }
 
-.tertiary-heading {
-	.three-content_section & {
-		display: inline-block;
-		line-height: 1;
-		padding: 0 0 1rem;
-		margin: 0 0 1rem;
-		border-bottom: 3px dotted $mint;
-	}
+.three-content_section .wrap {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: flex-start;
+	gap: 2rem;
 }
 
-.cta-link {
-	.three-content_section & {
-		display: block;
-		max-width: 220px;
-		text-align: center;
-		margin: 3rem auto 0;
+.three-content_section .content-item p {
+	position: relative;
+	padding: 0 1.25rem;
+	font-size: 1rem;
+	line-height: 1.75;
+}
 
-		@media (max-width: 960px) {
-			width: 100%;
-			max-width: 100%;
-			padding: 0.75rem;
-			margin: 1rem auto 0;
-		}
+.three-content_section .content-item p::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(to bottom, #1d506f 0%, #1d506f 25%, #44878c 25%, #44878c 50%, #89bfac 50%, #89bfac 75%, #d7cc8e 75%, #d7cc8e 100%);
+}
+
+.three-content_section .tertiary-heading {
+	display: inline-block;
+	line-height: 1;
+	padding: 0 0 1rem;
+	margin: 0 0 1rem;
+	border-bottom: 3px dotted $mint;
+}
+
+.three-content_section .cta-link {
+	display: block;
+	max-width: 220px;
+	text-align: center;
+	margin: 3rem auto 0;
+}
+
+@media (max-width: 960px) {
+	.three-content_section .wrap {
+		grid-template-columns: 1fr;
+		gap: 1rem;
+	}
+
+	.three-content_section .heading-wrap p {
+		margin: 0 auto 1rem;
+	}
+
+	.three-content_section .cta-link {
+		width: 100%;
+		max-width: 100%;
+		padding: 0.75rem;
+		margin: 1rem auto 0;
 	}
 }
