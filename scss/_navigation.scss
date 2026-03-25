@@ -65,8 +65,8 @@
 	transform-origin: center center;
 	transform: rotateZ(0) translate(0, 0);
 	transition:
-		transform 350ms ease,
-		width 200ms ease;
+		transform 300ms ease,
+		width 300ms ease;
 }
 
 .mobile-button:active > div,
