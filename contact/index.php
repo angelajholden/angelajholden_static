@@ -18,17 +18,106 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<h1 class="primary-heading">Contact Me</h1>
 					<p>Got a question, idea or opportunity? Send me a message using the form below, I check my inbox regularly and respond as soon as I can. I'm always happy to set up a Zoom meeting if you'd like to connect live, especially if you're a prospective client or employer.</p>
 				</header>
-				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST">
+				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST" novalidate>
 					<div class="form-inputs">
-						<label class="access-hidden" for="name">Name</label>
-						<input id="name" name="name" type="text" placeholder="Name*" required="required">
-						<label class="access-hidden" for="email">Email</label>
-						<input id="email" type="email" name="email" placeholder="Email*" required="required">
-						<label class="access-hidden" for="phone">Phone</label>
-						<input id="phone" name="phone" placeholder="Phone" type="tel">
+						<label for="name">Name <span>*</span></label>
+						<input id="name" name="name" type="text" autocomplete="name">
+
+						<label for="email">Email <span>*</span></label>
+						<input id="email" type="email" name="email" autocomplete="email">
+
+						<label for="phone">Phone</label>
+						<input id="phone" name="phone" type="tel" autocomplete="tel">
+
+						<fieldset class="form_fieldset">
+							<legend>What are you interested in? <span>*</span></legend>
+							<label>
+								<input type="radio" name="inquiry_type" value="website" data-show="website-fields" required>
+								Website project
+							</label>
+							<label>
+								<input type="radio" name="inquiry_type" value="consulting" data-show="consulting-fields">
+								Consulting session
+							</label>
+							<label>
+								<input type="radio" name="inquiry_type" value="code-review" data-show="code-review-fields">
+								Code review
+							</label>
+						</fieldset>
+						<p class="error_message" id="interest-error">Please select your interest.</p>
+
+						<div class="conditional_group" id="website-fields">
+							<label for="website-type">What kind of website do you need?</label>
+							<div class="form_field">
+								<select id="website-type" name="website_type">
+									<option value="">Choose one</option>
+									<option value="landing-page">Landing page</option>
+									<option value="portfolio">Portfolio site</option>
+									<option value="business-site">Business site</option>
+									<option value="existing-site-updates">Updates to an existing site</option>
+								</select>
+								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+							</div>
+
+							<label for="website-timeline">What is your ideal timeline?</label>
+							<div class="form_field">
+								<select id="website-timeline" name="website_timeline">
+									<option value="">Choose one</option>
+									<option value="asap">As soon as possible</option>
+									<option value="1-month">Within 1 month</option>
+									<option value="2-3-months">2-3 months</option>
+									<option value="flexible">Flexible</option>
+								</select>
+								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+							</div>
+						</div>
+
+						<div class="conditional_group" id="consulting-fields">
+							<label for="consulting-topic">What do you want help with?</label>
+							<div class="form_field">
+								<select id="consulting-topic" name="consulting_topic">
+									<option value="">Choose one</option>
+									<option value="html-css">HTML/CSS</option>
+									<option value="javascript">JavaScript</option>
+									<option value="accessibility">Accessibility</option>
+									<option value="career">Frontend career direction</option>
+								</select>
+								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+							</div>
+
+							<label for="session-length">Preferred session length</label>
+							<div class="form_field">
+								<select id="session-length" name="session_length">
+									<option value="">Choose one</option>
+									<option value="30">30 minutes</option>
+									<option value="60">60 minutes</option>
+									<option value="90">90 minutes</option>
+								</select>
+								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+							</div>
+						</div>
+
+						<div class="conditional_group" id="code-review-fields">
+
+							<label for="repo-url">GitHub repo or project URL</label>
+							<input type="url" id="repo-url" name="repo_url">
+
+							<label for="review-focus">What should I focus on?</label>
+							<div class="form_field">
+								<select id="review-focus" name="review_focus">
+									<option value="">Choose one</option>
+									<option value="html-structure">HTML structure</option>
+									<option value="css-layout">CSS/layout</option>
+									<option value="javascript">JavaScript</option>
+									<option value="accessibility">Accessibility</option>
+								</select>
+								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M112 184l144 144 144-144"/></svg>
+							</div>
+						</div>
+
 					</div>
-					<label class="access-hidden" for="message">Message</label>
-					<textarea id="message" name="message" placeholder="Message*" rows="7" required="required"></textarea>
+					<label for="message">Message</label>
+					<textarea id="message" name="message" rows="7"></textarea>
 					<button class="button teal-solid" type="submit">Submit</button>
 				</form>
 			</div>

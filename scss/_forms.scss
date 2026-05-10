@@ -90,11 +90,34 @@
 }
 
 .form {
-	input {
+	input[type="text"],
+	input[type="email"],
+	input[type="tel"],
+	input[type="url"],
+	select,
+	fieldset {
 		width: 100%;
 		margin: 0 0 1rem;
-		padding: 1.5rem;
+		padding: 1rem;
 		border: 3px solid $teal;
+	}
+
+	input[type="radio"] {
+		margin-right: 0.5rem;
+	}
+
+	select {
+		appearance: none;
+		margin: 0;
+	}
+
+	fieldset label {
+		display: block;
+	}
+
+	legend span,
+	label span {
+		color: $red;
 	}
 
 	textarea {
@@ -103,10 +126,36 @@
 		border: 3px solid $teal;
 	}
 
+	.form_field {
+		position: relative;
+		margin: 0 0 1rem;
+	}
+
+	.form_field svg {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		right: 1rem;
+		display: block;
+		width: 2rem;
+		height: 2rem;
+		stroke: $teal;
+		pointer-events: none;
+	}
+
 	.button {
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
+	}
+
+	.error_message {
+		font-family: "Cormorant", serif;
+		font-weight: 500;
+		font-style: normal;
+		font-size: 1.5rem;
+		color: $red;
+		line-height: 1.65;
 	}
 
 	@media (max-width: 960px) {
