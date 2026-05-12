@@ -18,13 +18,18 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<h1 class="primary-heading">Contact Me</h1>
 					<p>Got a question, idea or opportunity? Send me a message using the form below, I check my inbox regularly and respond as soon as I can. I'm always happy to set up a Zoom meeting if you'd like to connect live, especially if you're a prospective client or employer.</p>
 				</header>
-				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST" novalidate>
+				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST" target="_blank" novalidate>
+					<input type="hidden" name="origin" value="">
+					<input type="hidden" name="path" value="">
+
 					<div class="form-inputs">
 						<label for="name">Name <span>*</span></label>
 						<input id="name" name="name" type="text" autocomplete="name">
+						<p class="error_message" id="name-error" hidden>Please enter your name.</p>
 
 						<label for="email">Email <span>*</span></label>
 						<input id="email" type="email" name="email" autocomplete="email">
+						<p class="error_message" id="email-error" hidden>Please enter your email.</p>
 
 						<label for="phone">Phone</label>
 						<input id="phone" name="phone" type="tel" autocomplete="tel">
@@ -32,7 +37,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<fieldset class="form_fieldset">
 							<legend>What are you interested in? <span>*</span></legend>
 							<label>
-								<input type="radio" name="inquiry_type" value="website" data-show="website-fields" required>
+								<input type="radio" name="inquiry_type" value="website" data-show="website-fields">
 								Website project
 							</label>
 							<label>
@@ -44,9 +49,9 @@ include_once dirname(__DIR__) . '/includes/head.php';
 								Code review
 							</label>
 						</fieldset>
-						<p class="error_message" id="interest-error">Please select your interest.</p>
+						<p class="error_message" id="interest-error" hidden>Please select your interest.</p>
 
-						<div class="conditional_group" id="website-fields">
+						<div class="conditional_group" id="website-fields" hidden>
 							<label for="website-type">What kind of website do you need?</label>
 							<div class="form_field">
 								<select id="website-type" name="website_type">
@@ -72,7 +77,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 							</div>
 						</div>
 
-						<div class="conditional_group" id="consulting-fields">
+						<div class="conditional_group" id="consulting-fields" hidden>
 							<label for="consulting-topic">What do you want help with?</label>
 							<div class="form_field">
 								<select id="consulting-topic" name="consulting_topic">
@@ -97,7 +102,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 							</div>
 						</div>
 
-						<div class="conditional_group" id="code-review-fields">
+						<div class="conditional_group" id="code-review-fields" hidden>
 
 							<label for="repo-url">GitHub repo or project URL</label>
 							<input type="url" id="repo-url" name="repo_url">
@@ -118,7 +123,11 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</div>
 					<label for="message">Message</label>
 					<textarea id="message" name="message" rows="7"></textarea>
-					<button class="button teal-solid" type="submit">Submit</button>
+
+					<div class="button_container">
+						<button class="button teal-solid" type="submit">Submit</button>
+						<button class="reset_button" type="reset">Reset</button>
+					</div>
 				</form>
 			</div>
 		</section>

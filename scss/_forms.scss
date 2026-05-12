@@ -143,10 +143,34 @@
 		pointer-events: none;
 	}
 
+	.button_container {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 	.button {
-		position: relative;
-		left: 50%;
-		transform: translateX(-50%);
+		margin-inline: 0;
+	}
+
+	.reset_button {
+		border: none;
+		background-color: transparent;
+		padding: 0;
+		color: $teal;
+		text-decoration: underline;
+		text-decoration-color: $teal;
+		text-underline-offset: 3px;
+		text-decoration-thickness: 2px;
+		cursor: pointer;
+		transition: text-decoration-color 300ms ease-in-out;
+	}
+
+	.reset_button:focus,
+	.reset_button:hover,
+	.reset_button:active {
+		text-decoration-color: transparent;
 	}
 
 	.error_message {
