@@ -18,7 +18,7 @@ export default function initContactForm() {
 	const emailError = root.querySelector("#email-error");
 	const interestError = root.querySelector("#interest-error");
 
-	// conditional fields
+	// conditional groups
 	inquiryType.forEach((type) => {
 		type.addEventListener("change", (e) => {
 			interestError.hidden = true;
