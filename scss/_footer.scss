@@ -105,14 +105,6 @@
 	}
 }
 
-.digital-ocean {
-	.footer & {
-		img {
-			margin: 2rem auto 0;
-		}
-	}
-}
-
 .footer-about {
 	.footer & {
 		padding: 3rem;
@@ -180,36 +172,26 @@
 	}
 }
 
-.form {
-	.footer & {
-		margin: 1.5rem 0 0;
-		font-size: 1rem;
+.footer-item a:has(svg) {
+	display: block;
+	max-width: 200px;
+	height: auto;
+	margin: 0 auto;
+}
 
-		input,
-		.button {
-			width: 100%;
-			min-width: 100%;
-			padding: 0.75rem;
-			border-width: 2px;
-		}
+.hover-svg a {
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, $hover-dk-green, $hover-lt-green);
+}
 
-		input {
-			border-color: $white;
-		}
+.footer-item svg {
+	display: block;
+	margin: 0 auto;
+}
 
-		.button {
-			margin: 0;
-			font-weight: 600;
-			text-transform: none;
-			letter-spacing: 0;
-
-			&:hover,
-			&:active,
-			&:focus {
-				border-width: 2px;
-			}
-		}
-	}
+.hover-svg svg {
+	fill: $white;
 }
 
 .copyright {
