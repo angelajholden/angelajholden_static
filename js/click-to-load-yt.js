@@ -1,29 +1,31 @@
 export default function initYtLoadVideo() {
-	const root = document.querySelector(".yt_video");
-	if (!root) return;
+	const videos = document.querySelectorAll(".yt_video");
+	if (videos.length === 0) return;
 
-	const wrap = root.querySelector(".yt_video-wrap");
-	const id = root.dataset.videoId;
-	const play = root.querySelector(".play_button");
-	const thumb = root.querySelector(".yt_thumb");
-	const figCap = root.querySelector("figcaption");
-	const figCapText = figCap.textContent;
+	videos.forEach((video) => {
+		const wrap = video.querySelector(".yt_video-wrap");
+		const id = video.dataset.videoId;
+		const play = video.querySelector(".play_button");
+		const thumb = video.querySelector(".yt_thumb");
+		const figCap = video.querySelector("figcaption");
+		const figCapText = figCap.textContent;
 
-	play.addEventListener("click", () => {
-		const iframe = document.createElement("iframe");
-		iframe.classList.add("yt_video-iframe");
-		iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1`;
-		iframe.title = figCapText;
-		iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-		iframe.referrerPolicy = "strict-origin-when-cross-origin";
-		iframe.allowFullscreen = true;
+		play.addEventListener("click", () => {
+			const iframe = document.createElement("iframe");
+			iframe.classList.add("yt_video-iframe");
+			iframe.src = `https://www.youtube.com/embed/${id}?autoplay=1`;
+			iframe.title = figCapText;
+			iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+			iframe.referrerPolicy = "strict-origin-when-cross-origin";
+			iframe.allowFullscreen = true;
 
-		play.remove();
-		thumb.classList.add("yt_fade");
-		wrap.append(iframe);
+			play.remove();
+			thumb.classList.add("yt_fade");
+			wrap.append(iframe);
 
-		setTimeout(() => {
-			thumb.remove();
-		}, 1250);
+			setTimeout(() => {
+				thumb.remove();
+			}, 1250);
+		});
 	});
 }

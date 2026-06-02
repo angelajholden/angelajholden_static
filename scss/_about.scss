@@ -158,35 +158,49 @@
 	@media (max-width: 960px) {
 		padding: 3rem 1rem;
 	}
+
+	.signatureSVG {
+		display: block;
+		width: 133px;
+		height: auto;
+		margin-left: auto;
+		margin-right: 2rem;
+		transform: translateY(-1.5rem) rotate(-5deg);
+	}
 }
 
 .content_wrap {
 	.inspiration & {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
-		align-items: flex-start;
+		justify-content: center;
+		gap: 1rem;
 	}
 }
 
-.inspiration_content {
-	width: 65%;
+.inspiration {
+	.yt_video {
+		width: calc((100% - 2rem) / 3);
 
-	p {
-		font-size: 1rem;
-		line-height: 1.65;
-		margin: 0 0 1rem;
+		@media (max-width: 600px) {
+			width: calc((100% - 1rem) / 2);
+		}
+
+		@media (max-width: 360px) {
+			width: 100%;
+		}
 	}
-}
 
-.inspiration_sidebar {
-	width: 30%;
-
-	.figure {
-		/* use a fixed width (px) and max-width: 100% if you ARE NOT using css grid */
-		width: 100%;
-		height: auto;
+	.yt_video-wrap {
 		aspect-ratio: 9 / 16;
+	}
+
+	figcaption {
+		font-size: 1.333rem;
+		font-weight: 500;
+		line-height: 1.25;
+		color: $dk-teal;
+		margin: 0.5rem 0 0;
 	}
 
 	iframe {
@@ -194,25 +208,6 @@
 		width: 100%;
 		height: 100%;
 		background-color: $black;
-	}
-
-	p {
-		font-size: 0.95rem;
-		line-height: 1.55;
-	}
-}
-
-@media (max-width: 960px) {
-	.inspiration_content {
-		order: 1;
-		width: 100%;
-		padding-bottom: 1rem;
-		margin-bottom: 1rem;
-	}
-
-	.inspiration_sidebar {
-		order: 2;
-		width: 100%;
 	}
 }
 
