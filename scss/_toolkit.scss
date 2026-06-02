@@ -100,7 +100,7 @@ ul {
 
 .list {
 	font-family: "Lato", sans-serif;
-	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-size: 1.1rem;
 	font-weight: 400;
 	font-style: normal;
 
@@ -112,7 +112,7 @@ ul {
 	li {
 		padding-bottom: 0.85rem;
 		margin-bottom: 0.85rem;
-		line-height: 1.65;
+		letter-spacing: 0.25px;
 
 		strong {
 			display: block;

@@ -15,7 +15,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="about-header animate__animated animate__fadeIn">
 			<header class="content-header">
 				<h1 class="primary-heading">About Me</h1>
-				<p>Hello! I'm Angela, a software engineer and frontend developer in Saint Paul, MN. I've spent over a decade writing code, mentoring devs and solving problems across a wide range of projects. Now I'm focused on teaching, streaming and creating tools and content that help others learn.</p>
+				<p>Hello! I'm Angela Holden, a software engineer in Saint Paul, Minnesota. I've spent over a decade writing code, mentoring developers and solving problems. I like to teach, and create tools and content that help others learn. My focus is always practice as much as possible, and build more projects.</p>
 			</header>
 		</section>
 		<section class="skills-experience">
@@ -27,24 +27,24 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<h2 class="secondary-heading">Tech Stack &amp; Tools</h2>
 					<ul class="list">
 						<li>
-							<strong>Languages &amp; Frontend:</strong>
-							HTML, CSS, SCSS, Vanilla JavaScript, Twig, Velocity, PHP, responsive design, accessibility (a11y), search engine optimization (SEO)
+							<strong>Software Development:</strong>
+							HTML, CSS, JavaScript (ES6+), PHP, Python, SQL, REST APIs, JSON
 						</li>
 						<li>
-							<strong>Frameworks &amp; Libraries:</strong>
-							jQuery, Vue JS, Angular, Node.js, Express.js
+							<strong>Frameworks &amp; Technologies:</strong>
+							Vue.js, Angular, Node.js, Express.js, WordPress, Salesforce Integrations, Cascade CMS, Velocity Templating
 						</li>
 						<li>
-							<strong>Backend &amp; Databases:</strong>
-							REST APIs, MongoDB, NoSQL, MySQL, Python, Java
+							<strong>Development Practices:</strong>
+							Git, GitHub, Agile / Scrum / Kanban, CI/CD Workflows, Accessibility + WCAG Best Practices, Technical SEO, Cross Functional Collaboration
 						</li>
 						<li>
-							<strong>DevOps &amp; Workflows:</strong>
-							Git, GitHub, GitHub Actions, Apache, Ubuntu, Linux, Heroku, DigitalOcean, NPM, NVM, Composer, Homebrew
+							<strong>Databases &amp; Systems:</strong>
+							MySQL, Application Support, System Integrations, Technical Troubleshooting
 						</li>
 						<li>
-							<strong>Extras:</strong>
-							Markdown, VS Code, Terminal, OBS Studio
+							<strong>Infrastructure &amp; Platforms:</strong>
+							Linux, Ubuntu, Apache, LAMP Stack Administration, Cloud Deployments, DigitalOcean
 						</li>
 					</ul>
 				</div>
@@ -78,6 +78,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					</span>
 					Love
 				</h2>
+				<p>I started to stream coding and development in August 2024 after I discovered LawTube.</p>
 			</div>
 			<div class="wrap">
 				<article class="lawtuber-item">

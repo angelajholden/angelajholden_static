@@ -33,7 +33,7 @@ include_once (__DIR__) . '/includes/head.php';
 		</section>
 		<section class="three-content_section">
 			<div class="heading-wrap">
-				<h2 class="secondary-heading">Frontend Philosophy</h2>
+				<h2 class="secondary-heading">Development Philosophy</h2>
 				<p><strong>Need a Website?</strong> I'm available for select freelance web development projects. I build fast, accessible, and responsive sites using HTML, CSS and JavaScript.</p>
 			</div>
 			<div class="wrap">
@@ -75,7 +75,7 @@ include_once (__DIR__) . '/includes/head.php';
 		</div>
 		<section class="featured-video_section">
 			<div class="heading-wrap">
-				<h2 class="secondary-heading">Latest Tutorial</h2>
+				<h2 class="secondary-heading">Recent Video</h2>
 			</div>
 			<div class="wrap">
 				<figure class="figure yt_video animate__animated" data-animation="animate__fadeInUp" data-video-id="BORta0DWUIY">

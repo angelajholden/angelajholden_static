@@ -281,6 +281,8 @@
 .heading-wrap {
 	.lawtubers & {
 		text-align: center;
+		max-width: 80ch;
+		margin: 0 auto;
 	}
 }
 
@@ -291,7 +293,7 @@
 		justify-content: space-between;
 		align-items: stretch;
 		max-width: 75rem;
-		margin: 0 auto;
+		margin: 2rem auto 0;
 		gap: 2rem;
 	}
 }

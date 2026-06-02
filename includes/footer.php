@@ -16,7 +16,7 @@
 		<div class="footer-item">
 			<section class="footer-about">
 				<h3 class="tertiary-heading">About Me</h3>
-				<p>I'm a software engineer and frontend developer in Saint Paul, MN where I live with my dog, Heidi. After more than a decade of coding, I share what I've learned through tutorials and streaming.</p>
+				<p>I'm a software engineer and frontend developer in Saint Paul, MN where I live with my dog, Heidi. After more than a decade of coding, I share what I've learned through project videos and streaming.</p>
 			</section>
 			<section class="social-icons">
 				<nav class="social-nav" aria-label="Social media links">
@@ -133,5 +133,5 @@
 			</p>
 		</div>
 	</div>
-	<div class="copyright">Copyright &copy; <span id="date"></span> <span class="bullet">•</span> <span class="footer-name">Angela Holden Design LLC</span></div>
+	<div class="copyright">Copyright &copy; <span id="date"></span> <span class="bullet">•</span> <span class="footer-name">Angela Holden Design</span></div>
 </footer>

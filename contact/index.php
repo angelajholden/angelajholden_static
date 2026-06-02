@@ -16,7 +16,8 @@ include_once dirname(__DIR__) . '/includes/head.php';
 			<div class="wrap">
 				<header class="content-header">
 					<h1 class="primary-heading">Contact Me</h1>
-					<p>Got a question, idea or opportunity? Send me a message using the form below, I check my inbox regularly and respond as soon as I can. I'm always happy to set up a Zoom meeting if you'd like to connect live, especially if you're a prospective client or employer.</p>
+					<p>Got a question, idea or opportunity? Send me a message using the form below, I check my inbox regularly and respond as soon as I can. Or reach out on <a href="https://www.instagram.com/angelajholden" target="_blank">Instagram</a>.
+					</p>
 				</header>
 				<form class="form" action="https://formspree.io/f/xyzyqyve" method="POST" target="_blank" novalidate>
 					<input type="hidden" name="origin" value="">
