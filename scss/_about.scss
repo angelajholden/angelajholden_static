@@ -155,10 +155,6 @@
 .inspiration {
 	padding: 6rem 3rem 3rem;
 
-	@media (max-width: 960px) {
-		padding: 3rem 1rem;
-	}
-
 	.signatureSVG {
 		display: block;
 		width: 133px;
@@ -166,6 +162,17 @@
 		margin-left: auto;
 		margin-right: 2rem;
 		transform: translateY(-1.5rem) rotate(-5deg);
+	}
+
+	@media (max-width: 1180px) {
+		.signatureSVG {
+			width: 100px;
+			transform: translateY(-0.333rem) rotate(-5deg);
+		}
+	}
+
+	@media (max-width: 960px) {
+		padding: 3rem 1rem;
 	}
 }
 
