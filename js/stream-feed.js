@@ -1,3 +1,5 @@
+import initAnimateOnScroll from "./animate-on-scroll.js";
+
 export function initStreamFeed(data) {
 	// console.log(data);
 	const root = document.querySelector(".video-wrap");
@@ -91,6 +93,7 @@ export function initStreamFeed(data) {
 			article.append(figure, articleWrap);
 			root.append(article);
 		});
+		initAnimateOnScroll(root);
 	}
 	renderVideos(data);
 
