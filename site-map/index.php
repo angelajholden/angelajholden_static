@@ -49,6 +49,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<li><a href="../privacy-policy/">Privacy Policy</a></li>
 						<li><a href="../projects/">Projects</a></li>
 						<li><a href="../terms-conditions/">Terms &amp; Conditions</a></li>
+						<li><a href="../videos/">Videos</a></li>
 					</ul>
 				</div>
 				<footer class="content-footer">

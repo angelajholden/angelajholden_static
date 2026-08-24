@@ -28,7 +28,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<div class="meta-group">
 							<div class="meta-item">
 								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 01-16-16V128a16 16 0 0132 0v128h80a16 16 0 010 32z"/></svg>
-								<time datetime="2026-06-01">Jun 1, 2026</time>
+								<time datetime="2026-06-01">Aug 24, 2026</time>
 							</div>
 							<div class="meta-item">
 								<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M400 480a16 16 0 01-10.63-4L256 357.41 122.63 476A16 16 0 0196 464V96a64.07 64.07 0 0164-64h192a64.07 64.07 0 0164 64v368a16 16 0 01-16 16z"/></svg>
@@ -46,12 +46,12 @@ include_once dirname(__DIR__) . '/includes/head.php';
 						<li>Audience: Aspiring devs, junior engineers, self-taught coders</li>
 						<li>Tone: Authentic and educational, “real dev work, in real time.”</li>
 					</ul>
-					<h3>Current Analytics (as of March 2026)</h3>
+					<h3>Current Analytics (as of August 2026)</h3>
 					<ul class="list">
-						<li>Subscribers: 2,889 (410+ in the last 28 days)</li>
+						<li>Subscribers: 3,304 (119+ in the last 28 days)</li>
 						<li>Avg Views per Video: 200&mdash;400 Streams, 500+ Project Videos &amp; Shorts</li>
-						<li>Watch Time (28 days): 1.1K hours</li>
-						<li>Total Watch Hours (365 days): 5.6K</li>
+						<li>Watch Time (28 days): 462.4 hours</li>
+						<li>Total Watch Hours (365 days): 5.8K</li>
 						<li>Top Countries: United States, Pakistan and India</li>
 						<li>Audience Age Range: 18&mdash;24 (56%) and 25&mdash;34 (38%)</li>
 					</ul>
