@@ -43,48 +43,77 @@ export function initStreamFeed(data) {
 			.trim();
 	}
 
-	const reverseData = data.toReversed();
-	reverseData.forEach((video) => {
-		// article, figure, img, div, div, h2, a, p
-		const article = document.createElement("article");
-		article.classList.add("article-item");
-		article.classList.add("video-item");
-		article.classList.add("animate__animated");
-		if (Math.random() < 1 / 3) {
-			article.classList.add("animate__fast");
+	function renderVideos(data) {
+		const reverseData = data.toReversed();
+		reverseData.forEach((video) => {
+			// article, figure, img, div, div, h2, a, p
+			const article = document.createElement("article");
+			article.classList.add("article-item");
+			article.classList.add("video-item");
+			article.classList.add("animate__animated");
+			if (Math.random() < 1 / 3) {
+				article.classList.add("animate__fast");
+			}
+			article.setAttribute("data-animation", "animate__fadeInUp");
+
+			const figure = document.createElement("figure");
+			figure.classList.add("image");
+
+			const img = document.createElement("img");
+			img.loading = "lazy";
+			img.src = video.thumbnail_url;
+			img.alt = createAlt(video.title);
+
+			const articleWrap = document.createElement("div");
+			articleWrap.classList.add("article-wrap");
+
+			const articleCategory = document.createElement("div");
+			articleCategory.classList.add("article-category");
+			articleCategory.textContent = "Live Stream";
+
+			const h2 = document.createElement("h2");
+			h2.classList.add("secondary-heading");
+
+			const link = document.createElement("a");
+			// link.href = `${url}/${createSlug(video.title)}`;
+			link.href = video.url;
+			link.target = `_blank`;
+			link.textContent = createAlt(video.title);
+
+			const desc = normalizeDescription(video.description.slice(0, 110));
+			const p = document.createElement("p");
+			p.textContent = `${desc}...`;
+
+			figure.append(img);
+			h2.append(link);
+			articleWrap.append(articleCategory, h2, p);
+			article.append(figure, articleWrap);
+			root.append(article);
+		});
+	}
+	renderVideos(data);
+
+	const form = document.querySelector(".filter_form");
+	const input = document.querySelector(".video_filter");
+
+	let timer;
+	input.addEventListener("input", (e) => {
+		clearTimeout(timer);
+		timer = setTimeout(() => {
+			const search = e.target.value.toLowerCase().trim();
+			console.log(search);
+			const matchVideos = data.filter((video) => {
+				const match = video.title.toLowerCase().includes(search);
+				return match;
+			});
+			root.innerHTML = "";
+			renderVideos(matchVideos);
+		}, 500);
+	});
+
+	form.addEventListener("keydown", (e) => {
+		if (e.key === "Enter") {
+			e.preventDefault();
 		}
-		article.setAttribute("data-animation", "animate__fadeInUp");
-
-		const figure = document.createElement("figure");
-		figure.classList.add("image");
-
-		const img = document.createElement("img");
-		img.loading = "lazy";
-		img.src = video.thumbnail_url;
-		img.alt = createAlt(video.title);
-
-		const articleWrap = document.createElement("div");
-		articleWrap.classList.add("article-wrap");
-
-		const articleCategory = document.createElement("div");
-		articleCategory.classList.add("article-category");
-		articleCategory.textContent = "Live Stream";
-
-		const h2 = document.createElement("h2");
-		h2.classList.add("secondary-heading");
-
-		const link = document.createElement("a");
-		link.href = `${url}/${createSlug(video.title)}`;
-		link.textContent = createAlt(video.title);
-
-		const desc = normalizeDescription(video.description.slice(0, 110));
-		const p = document.createElement("p");
-		p.textContent = `${desc}...`;
-
-		figure.append(img);
-		h2.append(link);
-		articleWrap.append(articleCategory, h2, p);
-		article.append(figure, articleWrap);
-		root.append(article);
 	});
 }

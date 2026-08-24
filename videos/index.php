@@ -15,8 +15,15 @@ include_once dirname(__DIR__) . '/includes/head.php';
 		<section class="video-articles">
 			<header class="content-header">
 				<h1 class="primary-heading">Videos</h1>
-				<p>This is the full archive of everything I've streamed on YouTube. I go live every Saturday and Sunday to practice HTML, CSS and JavaScript. I build real vanilla projects in real-time.</p>
+				<p>This is the full archive of everything I've streamed on YouTube starting in August 2024. I go live every Saturday and Sunday to practice HTML, CSS and JavaScript. I build real vanilla projects in real-time.</p>
 			</header>
+			<form class="filter_form">
+				<label for="filter_input">Search Videos</label>
+				<div class="input_container">
+					<input id="filter_input" class="video_filter" type="search" placeholder="Type a keyword...">
+					<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="ionicon"><path d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z" fill="none" stroke="" stroke-miterlimit="10" stroke-width="32px"/><path d="M338.29 338.29 448 448" fill="none" stroke="" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px"/></svg>
+				</div>
+			</form>
 			<div class="video-wrap"></div>
 		</section>
 	</main>

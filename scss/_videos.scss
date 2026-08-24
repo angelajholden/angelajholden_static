@@ -175,3 +175,38 @@
 		}
 	}
 }
+
+// Filter Form
+.filter_form {
+	max-width: 60rem;
+	margin: 0 auto 4rem;
+}
+
+.filter_form label {
+	font-weight: 600;
+	color: $dk-teal;
+}
+
+.input_container {
+	position: relative;
+	z-index: 0;
+}
+
+.input_container svg {
+	display: block;
+	width: 3rem;
+	height: 3rem;
+	position: absolute;
+	top: 50%;
+	right: 1rem;
+	transform: translateY(-50%);
+	stroke: $teal;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.input_container input {
+	width: 100%;
+	padding: 1.25rem 5rem 1.25rem 1.25rem;
+	border: 2px solid $teal;
+}
