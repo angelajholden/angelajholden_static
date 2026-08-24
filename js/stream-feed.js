@@ -70,9 +70,14 @@ export function initStreamFeed(data) {
 			const articleWrap = document.createElement("div");
 			articleWrap.classList.add("article-wrap");
 
+			let dateStyle = new Date(video.actual_start_time);
+			dateStyle = dateStyle.toLocaleString("en-US", {
+				dateStyle: "medium",
+			});
+
 			const articleCategory = document.createElement("div");
 			articleCategory.classList.add("article-category");
-			articleCategory.textContent = "Live Stream";
+			articleCategory.textContent = dateStyle;
 
 			const h2 = document.createElement("h2");
 			h2.classList.add("secondary-heading");
@@ -83,7 +88,7 @@ export function initStreamFeed(data) {
 			link.target = `_blank`;
 			link.textContent = createAlt(video.title);
 
-			const desc = normalizeDescription(video.description.slice(0, 110));
+			const desc = normalizeDescription(video.description.slice(0, 125));
 			const p = document.createElement("p");
 			p.textContent = `${desc}...`;
 
