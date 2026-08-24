@@ -44,6 +44,7 @@ export function initStreamFeed(data) {
 	}
 
 	function renderVideos(data) {
+		root.innerHTML = "";
 		const reverseData = data.toReversed();
 		reverseData.forEach((video) => {
 			// article, figure, img, div, div, h2, a, p
@@ -106,7 +107,6 @@ export function initStreamFeed(data) {
 				const match = video.title.toLowerCase().includes(search);
 				return match;
 			});
-			root.innerHTML = "";
 			renderVideos(matchVideos);
 		}, 500);
 	});
