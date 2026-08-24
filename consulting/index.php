@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Consulting | Angela J Holden';
-$description = 'I help developers and small teams improve their frontend projects through structured, actionable feedback. My focus is on semantic HTML, efficient CSS, accessibility, and organic SEO.';
+$title = 'Frontend Code Reviews &amp; Consulting | Angela J. Holden';
+$description = 'Book a frontend code review with Angela J. Holden for practical guidance on HTML, CSS, JavaScript, accessibility, performance, SEO, QA, and deployment.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'consulting/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

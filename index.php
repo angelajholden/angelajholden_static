@@ -4,8 +4,9 @@
 
 <?php 
 $title = 'Angela J. Holden | Frontend Developer &amp; Software Engineer';
-$description = 'I\'m Angela Holden, a frontend developer and software engineer in Saint Paul, MN. I\'m available for freelancing and consulting. Contact me if you\'d like help with your project.';
+$description = 'Angela J. Holden is a frontend developer and software engineer in Saint Paul, MN, available for freelance web development and frontend consulting.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = '';
 include_once (__DIR__) . '/includes/head.php';
 ?>
 

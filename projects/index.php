@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Projects | Angela J Holden';
-$description = 'These are frontend projects I built during live streams, with links to full access to source code, working demos, and YouTube playlists.';
+$title = 'Frontend Development Projects | Angela J. Holden';
+$description = 'Browse frontend projects Angela J. Holden built during live streams, with project details and links to source code, working demos, and YouTube videos or playlists.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'projects/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

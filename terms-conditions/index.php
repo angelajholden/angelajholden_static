@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Terms &amp; Conditions | Angela J Holden';
-$description = 'Everything I share here—including tutorials, articles, PDFs, and code snippets—is offered freely and in good faith.';
+$title = 'Terms &amp; Conditions | Angela J. Holden';
+$description = 'Read the terms for using tutorials, PDFs, code snippets, and other content on Angela J. Holden’s website, including its affiliate disclosure.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'terms-conditions/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'About Me | Angela J Holden';
-$description = 'Hi, I\'m Angela, a software engineer and frontend developer. I\'ve spent over a decade writing code, mentoring devs, and solving real problems.';
+$title = 'About Angela J. Holden | Software Engineer';
+$description = 'Meet Angela J. Holden, a Saint Paul software engineer with over a decade of experience in frontend development, mentoring developers, and solving technical problems.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'about/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

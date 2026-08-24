@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Site Map | Angela J Holden';
-$description = 'A complete list of pages and articles on my website, organized by category and date.';
+$title = 'Site Map | Angela J. Holden';
+$description = 'Browse the public pages on Angela J. Holden’s website, including consulting, projects, videos, policies, accessibility information, and contact details.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'site-map/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

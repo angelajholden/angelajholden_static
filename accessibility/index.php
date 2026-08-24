@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Accessibility Statement | Angela J Holden';
-$description = 'This site follows WCAG 2.1 AA guidelines and is built with accessibility in mind. Feedback is welcome as improvements continue.';
+$title = 'Accessibility Statement | Angela J. Holden';
+$description = 'Read the accessibility statement for Angela J. Holden’s website, including its WCAG 2.1 AA baseline, accessibility practices, and options for submitting feedback.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'accessibility/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

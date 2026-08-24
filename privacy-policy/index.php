@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Privacy Policy | Angela J Holden';
-$description = 'I collect as little personal information as possible, just what\'s needed to keep in touch.';
+$title = 'Privacy Policy | Angela J. Holden';
+$description = 'Learn what personal information this website collects through its contact and newsletter forms, how that information is handled, and how to ask questions.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'privacy-policy/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

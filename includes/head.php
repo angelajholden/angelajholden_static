@@ -6,7 +6,7 @@
 		$isStaging = strpos($_SERVER['HTTP_HOST'], 'heroku') !== false;
 		// Handle robots meta tag
 		if ($isStaging || (isset($noindex) && $noindex === true)) {
-			echo '<meta name="robots" content="noindex,nofollow">' . PHP_EOL;
+			echo '<meta name="robots" content="noindex,follow">' . PHP_EOL;
 		} else {
 			echo '<meta name="robots" content="index,follow">' . PHP_EOL;
 		}
@@ -14,8 +14,13 @@
 	<title><?php echo isset($title) ? $title : "Angela J Holden | Software Engineer &amp; Frontend Developer"; ?></title>
 	<?php 
 		// Handle meta description
-		if (isset($description)) {
-			echo '<meta name="description" content="' . htmlspecialchars($description) . '">' . PHP_EOL;
+		if (isset($description) && $description !== '') {
+			echo '<meta name="description" content="' . htmlspecialchars($description, ENT_QUOTES, 'UTF-8') . '">' . PHP_EOL;
+		}
+		// Handle canonical URL
+		if (isset($canonicalPath)) {
+			$canonicalUrl = SITE_URL . ltrim($canonicalPath, '/');
+			echo '<link rel="canonical" href="' . htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') . '">' . PHP_EOL;
 		}
 	?>
 	<link rel="shortcut icon" href="<?php echo BASE_URL; ?>favicon.png" type="image/x-icon">

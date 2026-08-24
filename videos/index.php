@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Live Stream Videos | Angela J Holden';
-$description = '';
+$title = 'HTML, CSS &amp; JavaScript Live Streams | Angela J. Holden';
+$description = 'Browse Angela J. Holden’s YouTube live-stream archive featuring real-time HTML, CSS, and JavaScript projects, frontend practice, and developer workflows.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'videos/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

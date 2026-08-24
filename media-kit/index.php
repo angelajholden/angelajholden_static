@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Media Kit | Angela J Holden';
-$description = 'Brand-safe, developer-first content: live builds, tutorials, compilations';
+$title = 'Developer YouTube Media Kit | Angela J. Holden';
+$description = 'Explore Angela J. Holden’s developer media kit, including YouTube audience analytics, content formats, partnership opportunities, and contact information.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'media-kit/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 

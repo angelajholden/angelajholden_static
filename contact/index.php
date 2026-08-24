@@ -3,9 +3,10 @@
 <html lang="en">
 
 <?php 
-$title = 'Contact Me | Angela J Holden';
-$description = 'Have a question or idea? Send a message. I check my inbox often and always welcome thoughtful, direct conversations.';
+$title = 'Contact Angela J. Holden';
+$description = 'Contact Angela J. Holden about frontend consulting, freelance web development, collaborations, questions, or other professional opportunities.';
 $noindex = false; // or true, if you want to block this specific page
+$canonicalPath = 'contact/';
 include_once dirname(__DIR__) . '/includes/head.php';
 ?>
 
