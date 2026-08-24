@@ -10,15 +10,15 @@ import { initStreamFeed } from "./stream-feed.js";
 
 initMainNav();
 initNoOpener();
-initAnimateOnScroll();
 initYtLoadVideo();
 initCopyright();
 initContactForm();
 
 async function init() {
 	const data = await fetchData();
-	if (!data) return;
-
-	initStreamFeed(data);
+	if (data) {
+		initStreamFeed(data);
+	}
+	initAnimateOnScroll();
 }
 init();

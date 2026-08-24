@@ -12,20 +12,12 @@ include_once dirname(__DIR__) . '/includes/head.php';
 <body>
 	<?php include_once dirname(__DIR__) . '/includes/header.php'; ?>
 	<main id="content" class="main">
-		<section class="masonry-articles video-articles">
+		<section class="video-articles">
 			<header class="content-header">
 				<h1 class="primary-heading">Videos</h1>
-				<p>This is the full archive of everything I've streamed on YouTube. Filter by category to find exactly what you need.</p>
-				<!-- No categories right now. Eventually I'll build this out -->
-				<!-- <div class="article-buttons">
-					<button class="button blue-hollow active" data-category="all">All Articles</button>
-					<button class="button blue-hollow" data-category="pdfs">DevOps</button>
-					<button class="button blue-hollow" data-category="lifestyle">Lifestyle</button>
-					<button class="button blue-hollow" data-category="tips">Tips &amp; Advice</button>
-					<button class="button blue-hollow" data-category="tutorials">Tutorials</button>
-				</div> -->
+				<p>This is the full archive of everything I've streamed on YouTube. I go live every Saturday and Sunday to practice HTML, CSS and JavaScript. I build real vanilla projects in real-time.</p>
 			</header>
-			<div class="masonry-wrap video-wrap"></div>
+			<div class="video-wrap"></div>
 		</section>
 	</main>
 	<?php include_once dirname(__DIR__) . '/includes/footer.php'; ?>

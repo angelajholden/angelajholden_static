@@ -43,12 +43,16 @@ export function initStreamFeed(data) {
 			.trim();
 	}
 
-	data.forEach((video) => {
+	const reverseData = data.toReversed();
+	reverseData.forEach((video) => {
 		// article, figure, img, div, div, h2, a, p
 		const article = document.createElement("article");
 		article.classList.add("article-item");
 		article.classList.add("video-item");
 		article.classList.add("animate__animated");
+		if (Math.random() < 1 / 3) {
+			article.classList.add("animate__fast");
+		}
 		article.setAttribute("data-animation", "animate__fadeInUp");
 
 		const figure = document.createElement("figure");
@@ -73,10 +77,9 @@ export function initStreamFeed(data) {
 		link.href = `${url}/${createSlug(video.title)}`;
 		link.textContent = createAlt(video.title);
 
-		const desc = normalizeDescription(video.description.slice(0, 100));
+		const desc = normalizeDescription(video.description.slice(0, 110));
 		const p = document.createElement("p");
 		p.textContent = `${desc}...`;
-		console.log(p.textContent);
 
 		figure.append(img);
 		h2.append(link);
