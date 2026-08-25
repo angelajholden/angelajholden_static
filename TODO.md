@@ -1,7 +1,8 @@
-# QA Items
+# @TODO Items
 
 - should a 404 page be noindex,nofollow?
 - does a 404 page belong on a site map?
+- refine title sizing on homepage for mobile
 
 ## Projects
 
