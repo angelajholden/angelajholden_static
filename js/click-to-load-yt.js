@@ -1,5 +1,5 @@
-export default function initYtLoadVideo() {
-	const videos = document.querySelectorAll(".yt_video");
+export default function initYtLoadVideo(root = document) {
+	const videos = root.querySelectorAll(".yt_video");
 	if (videos.length === 0) return;
 
 	videos.forEach((video) => {
@@ -8,6 +8,8 @@ export default function initYtLoadVideo() {
 		const play = video.querySelector(".play_button");
 		const thumb = video.querySelector(".yt_thumb");
 		const figCap = video.querySelector("figcaption");
+		if (!wrap || !id || !play || !thumb || !figCap) return;
+
 		const figCapText = figCap.textContent;
 
 		play.addEventListener("click", () => {

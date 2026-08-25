@@ -1,4 +1,5 @@
 import initAnimateOnScroll from "./animate-on-scroll.js";
+import initYtLoadVideo from "./click-to-load-yt.js";
 
 export function initStreamFeed(data) {
 	// console.log(data);
@@ -61,7 +62,6 @@ export function initStreamFeed(data) {
 		root.innerHTML = "";
 		const reverseData = data.toReversed();
 		reverseData.forEach((video) => {
-			// article, figure, img, div, div, h2, a, p
 			const article = document.createElement("article");
 			article.classList.add("article-item");
 			article.classList.add("video-item");
@@ -72,9 +72,29 @@ export function initStreamFeed(data) {
 			article.setAttribute("data-animation", "animate__fadeInUp");
 
 			const figure = document.createElement("figure");
-			figure.classList.add("image");
+			figure.classList.add("image", "yt_video");
+			figure.dataset.videoId = video.video_id;
+
+			const videoWrap = document.createElement("div");
+			videoWrap.classList.add("yt_video-wrap");
+
+			const playButton = document.createElement("button");
+			playButton.type = "button";
+			playButton.classList.add("play_button");
+			playButton.setAttribute("aria-label", `Play ${createAlt(video.title)}`);
+
+			const playSvg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+			playSvg.setAttribute("aria-hidden", "true");
+			playSvg.setAttribute("viewBox", "0 0 512 512");
+
+			const playPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+			playPath.setAttribute(
+				"d",
+				"M133 440a35.37 35.37 0 01-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37 7.46-27.53 19.46-34.33a35.13 35.13 0 0135.77.45l247.85 148.36a36 36 0 010 61l-247.89 148.4A35.5 35.5 0 01133 440z",
+			);
 
 			const img = document.createElement("img");
+			img.classList.add("yt_thumb");
 			img.loading = "lazy";
 			img.src = video.thumbnail_url;
 			img.alt = createAlt(video.title);
@@ -121,7 +141,10 @@ export function initStreamFeed(data) {
 			const p = document.createElement("p");
 			p.textContent = `${desc}...`;
 
-			figure.append(img);
+			playSvg.append(playPath);
+			playButton.append(playSvg);
+			videoWrap.append(playButton, img);
+			figure.append(videoWrap, figcaption);
 			svg.append(path);
 			link.append(svg);
 			h2.append(link);
@@ -129,6 +152,7 @@ export function initStreamFeed(data) {
 			article.append(figure, articleWrap);
 			root.append(article);
 		});
+		initYtLoadVideo(root);
 		initAnimateOnScroll(root);
 	}
 	renderVideos(data);
