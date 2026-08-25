@@ -11,7 +11,7 @@
 			echo '<meta name="robots" content="index,follow">' . PHP_EOL;
 		}
 	?>
-	<title><?php echo isset($title) ? $title : "Angela J Holden | Software Engineer &amp; Frontend Developer"; ?></title>
+	<title><?php echo isset($title) ? $title : "Angela J. Holden | Software Engineer &amp; Frontend Developer"; ?></title>
 	<?php 
 		// Handle meta description
 		if (isset($description) && $description !== '') {
