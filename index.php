@@ -75,20 +75,20 @@ include_once (__DIR__) . '/includes/head.php';
 				<h2 class="secondary-heading">Recent Video</h2>
 			</div>
 			<div class="wrap">
-				<figure class="figure yt_video animate__animated" data-animation="animate__fadeInUp" data-video-id="BORta0DWUIY">
+				<figure class="figure yt_video animate__animated" data-animation="animate__fadeInUp" data-video-id="ZIm05oa6V2U">
 					<div class="yt_video-wrap">
 						<button type="button" class="play_button" aria-label="Play Video">
 							<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><path d="M133 440a35.37 35.37 0 01-17.5-4.67c-12-6.8-19.46-20-19.46-34.33V111c0-14.37 7.46-27.53 19.46-34.33a35.13 35.13 0 0135.77.45l247.85 148.36a36 36 0 010 61l-247.89 148.4A35.5 35.5 0 01133 440z"/></svg>
 						</button>
-						<img class="yt_thumb" src="https://img.youtube.com/vi/BORta0DWUIY/maxresdefault.jpg" alt="YouTube thumbnail for How to Deploy a Website (Rsync)">
+						<img class="yt_thumb" src="https://img.youtube.com/vi/ZIm05oa6V2U/maxresdefault.jpg" alt="My Codex Workflow for Website Content and Accessibility Updates">
 					</div>
-					<figcaption hidden>Deploy a Website to DigitalOcean | LAMP + Rsync (MacOS) + DNS Setup</figcaption>
+					<figcaption class="access-hidden">My Codex Workflow for Website Content and Accessibility Updates</figcaption>
 				</figure>
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
-					<h3 class="tertiary-heading">Deploy a Website to DigitalOcean 💧 LAMP + Rsync (MacOS) + DNS Setup</h3>
-					<p>In this tutorial I'll show you how I setup a LAMP stack on DigitalOcean and deploy a static website using Rsync. I'll also configure the DNS settings for a custom domain and install an SSL certificate from Let's Encrypt.</p>
+					<h3 class="tertiary-heading">My Codex Workflow for Website Content and Accessibility Updates</h3>
+					<p>In this video, I use Codex to polish an ocean-themed portfolio website without changing its HTML structure or CSS. I build a careful prompt, ask Codex to audit each page before editing, and review its recommendations for image alt text, article titles, categories, tags, dates, and placeholder copy.</p>
 					<p>
-						<a class="cta-link blue-solid" href="https://github.com/angelajholden/devops" target="_blank">Github: DevOps for Frontend
+						<a class="cta-link blue-solid" href="https://github.com/angelajholden/frontend-audit" target="_blank">Github: Frontend Audit
 						</a>
 					</p>
 				</div>

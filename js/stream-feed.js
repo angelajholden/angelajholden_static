@@ -99,6 +99,10 @@ export function initStreamFeed(data) {
 			img.src = video.thumbnail_url;
 			img.alt = createAlt(video.title);
 
+			const figcaption = document.createElement("figcaption");
+			figcaption.classList.add("access-hidden");
+			figcaption.textContent = createAlt(video.title);
+
 			const articleWrap = document.createElement("div");
 			articleWrap.classList.add("article-wrap");
 
