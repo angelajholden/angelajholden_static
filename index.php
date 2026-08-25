@@ -17,11 +17,7 @@ include_once (__DIR__) . '/includes/head.php';
 		<section class="top-banner_hero animate__animated animate__fadeIn">
 			<div class="wrap">
 				<div class="text-wrap_hero">
-					<h2 class="secondary-heading">
-						<span>Design.</span>
-						<span>Develop.</span>
-						<span>Deploy.</span>
-					</h2>
+					<h2 class="secondary-heading">Need help with your website?</h2>
 					<p>I'm Angela Holden, a frontend developer and software engineer in Saint Paul, MN. I'm available for freelancing and consulting. <a href="<?php echo BASE_URL; ?>contact/">Contact me</a> if you'd like help with your project.</p>
 				</div>
 				<figure class="figure">

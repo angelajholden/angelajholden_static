@@ -75,12 +75,45 @@ export function initStreamFeed(data) {
 				dateStyle: "medium",
 			});
 
-			const articleCategory = document.createElement("div");
-			articleCategory.classList.add("article-category");
-			articleCategory.textContent = dateStyle;
+			const videoDate = document.createElement("time");
+			videoDate.classList.add("article-date");
+			videoDate.dateTime = video.actual_start_time.slice(0, 10);
+			videoDate.textContent = dateStyle;
 
 			const h2 = document.createElement("h2");
 			h2.classList.add("secondary-heading");
+
+			const ns = "http://www.w3.org/2000/svg";
+			const svg = document.createElementNS(ns, "svg");
+			svg.setAttribute("aria-hidden", "true");
+			svg.setAttribute("viewBox", "0 0 512 512");
+
+			const path = document.createElementNS(ns, "path");
+			path.setAttribute(
+				"d",
+				"M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72",
+			);
+			path.setAttribute("fill", "none");
+			path.setAttribute("stroke", "currentColor");
+			path.setAttribute("stroke-linecap", "round");
+			path.setAttribute("stroke-linejoin", "round");
+			path.setAttribute("stroke-width", "32");
+
+			/*
+			<svg xmlns="http://www.w3.org/2000/svg"
+				class="ionicon"
+				viewBox="0 0 512 512"
+			>
+				<path
+					d="M384 224v184a40 40 0 01-40 40H104a40 40 0 01-40-40V168a40 40 0 0140-40h167.48M336 64h112v112M224 288L440 72"
+					fill="none"
+					stroke="currentColor"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="32"
+				/>
+			</svg>
+			 */
 
 			const link = document.createElement("a");
 			// link.href = `${url}/${createSlug(video.title)}`;
@@ -93,8 +126,10 @@ export function initStreamFeed(data) {
 			p.textContent = `${desc}...`;
 
 			figure.append(img);
+			svg.append(path);
+			link.append(svg);
 			h2.append(link);
-			articleWrap.append(articleCategory, h2, p);
+			articleWrap.append(videoDate, h2, p);
 			article.append(figure, articleWrap);
 			root.append(article);
 		});
