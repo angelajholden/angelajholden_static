@@ -87,10 +87,12 @@ include_once (__DIR__) . '/includes/head.php';
 				<div class="featured-content animate__animated animate__fast" data-animation="animate__fadeInUp">
 					<h3 class="tertiary-heading">My Codex Workflow for Website Content and Accessibility Updates</h3>
 					<p>In this video, I use Codex to polish an ocean-themed portfolio website without changing its HTML structure or CSS. I build a careful prompt, ask Codex to audit each page before editing, and review its recommendations for image alt text, article titles, categories, tags, dates, and placeholder copy.</p>
-					<p>
-						<a class="cta-link blue-solid" href="https://github.com/angelajholden/frontend-audit" target="_blank">Github: Frontend Audit
-						</a>
-					</p>
+					<?php
+					// <p>
+					// 	<a class="cta-link blue-solid" href="https://github.com/angelajholden/frontend-audit" target="_blank">Github: Frontend Audit
+					// 	</a>
+					// </p>
+					?>
 				</div>
 			</div>
 		</section>
