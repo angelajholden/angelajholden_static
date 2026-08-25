@@ -24,6 +24,7 @@ include_once dirname(__DIR__) . '/includes/head.php';
 					<input id="filter_input" class="video_filter" type="search" placeholder="Type a keyword...">
 					<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="ionicon"><path d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64Z" fill="none" stroke="" stroke-miterlimit="10" stroke-width="32px"/><path d="M338.29 338.29 448 448" fill="none" stroke="" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32px"/></svg>
 				</div>
+				<p class="video-status" aria-live="polite" aria-atomic="true"></p>
 			</form>
 			<div class="video-wrap"></div>
 		</section>

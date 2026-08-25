@@ -46,6 +46,18 @@ export function initStreamFeed(data) {
 	}
 
 	function renderVideos(data) {
+		let message;
+		if (data.length === 0) {
+			message = "There are no videos";
+		} else if (data.length === 1) {
+			message = "There is 1 video";
+		} else {
+			message = `There are ${data.length} videos`;
+		}
+
+		const videoStatus = document.querySelector(".video-status");
+		videoStatus.textContent = message;
+
 		root.innerHTML = "";
 		const reverseData = data.toReversed();
 		reverseData.forEach((video) => {
