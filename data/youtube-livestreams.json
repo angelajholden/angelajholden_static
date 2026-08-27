@@ -1170,32 +1170,6 @@
 		"url": "https://www.youtube.com/watch?v=ajPMvFQmDQs"
 	},
 	{
-		"video_id": "42vetySbiNc",
-		"title": "Daily Standup Live | Sep 10",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me",
-		"published_at": "2025-09-12T15:30:45Z",
-		"actual_start_time": "2025-09-10T16:38:21Z",
-		"actual_end_time": "2025-09-10T16:51:45Z",
-		"scheduled_start_time": "2025-09-10T16:37:01Z",
-		"duration": "PT13M31S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/42vetySbiNc/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=42vetySbiNc"
-	},
-	{
-		"video_id": "Pi8XaLpgP9A",
-		"title": "Daily Standup Live | Sep 11",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me",
-		"published_at": "2025-09-12T04:56:40Z",
-		"actual_start_time": "2025-09-11T16:35:06Z",
-		"actual_end_time": "2025-09-11T16:54:28Z",
-		"scheduled_start_time": "2025-09-11T16:32:16Z",
-		"duration": "PT19M31S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/Pi8XaLpgP9A/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=Pi8XaLpgP9A"
-	},
-	{
 		"video_id": "wk8T7nsB4O4",
 		"title": "LIVE 🟤 Instagram Reels-Style UI 📷 Tap to Mute + Double Tap to Like (HTML CSS JS)",
 		"description": "🔴 We’re finishing the Instagram Reels-style interface this weekend! 🎥\n\nIn this session we’ll:\n→ Add tap-to-mute/unmute functionality 🔇🔊\n→ Implement double-tap to like/heart ❤️\n→ Polish the UI built last weekend\n\nThis project is all about recreating the look and feel of Reels with HTML, CSS, and vanilla JavaScript. No backend, no frameworks — just frontend dev in real time.\n\n📌 Technologies: HTML • CSS • JavaScript\n\n🎶 Music provided by Artlist.io\nLicensed for use by Angela J Holden (Oct 3, 2024)\n\n💬 Need help with your code or a project? I offer 1:1 live coaching and async code reviews. Clear pricing, no back-and-forth — just book a time that works for you. ✅ https://angelajholden.com/consulting/\n\n🐙 GitHub repo: https://github.com/angelajholden/reels-style-video\n🔗 Github page: https://angelajholden.github.io/reels-style-video\n\n🍉 Github Sponsors\nhttps://github.com/sponsors/angelajholden\n\n🍋 Support the stream\nhttps://www.paypal.me/angelajholden",
@@ -1220,58 +1194,6 @@
 		"privacy_status": "public",
 		"thumbnail_url": "https://i.ytimg.com/vi/AhXIzC0T8gs/hqdefault.jpg",
 		"url": "https://www.youtube.com/watch?v=AhXIzC0T8gs"
-	},
-	{
-		"video_id": "vFGqtElc9nw",
-		"title": "Daily Standup Live | Sep 15",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me",
-		"published_at": "2025-09-16T03:43:36Z",
-		"actual_start_time": "2025-09-15T15:18:48Z",
-		"actual_end_time": "2025-09-15T15:39:37Z",
-		"scheduled_start_time": "2025-09-15T15:18:34Z",
-		"duration": "PT20M28S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/vFGqtElc9nw/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=vFGqtElc9nw"
-	},
-	{
-		"video_id": "ovKWcIYxQWc",
-		"title": "Daily Standup Live | Sep 16",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me",
-		"published_at": "2025-09-17T04:14:36Z",
-		"actual_start_time": "2025-09-16T15:51:15Z",
-		"actual_end_time": "2025-09-16T16:13:24Z",
-		"scheduled_start_time": "2025-09-16T15:50:57Z",
-		"duration": "PT21M38S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/ovKWcIYxQWc/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=ovKWcIYxQWc"
-	},
-	{
-		"video_id": "VHkNwnjpB60",
-		"title": "Daily Standup Live | Sep 17",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me",
-		"published_at": "2025-09-18T04:30:07Z",
-		"actual_start_time": "2025-09-17T16:00:04Z",
-		"actual_end_time": "2025-09-17T16:26:02Z",
-		"scheduled_start_time": "2025-09-17T16:00:00Z",
-		"duration": "PT26M13S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/VHkNwnjpB60/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=VHkNwnjpB60"
-	},
-	{
-		"video_id": "O9Ews4MqOQw",
-		"title": "Daily Standup Live | Sep 18",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-19T04:25:33Z",
-		"actual_start_time": "2025-09-18T15:51:42Z",
-		"actual_end_time": "2025-09-18T16:23:03Z",
-		"scheduled_start_time": "2025-09-18T16:00:00Z",
-		"duration": "PT31M34S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/O9Ews4MqOQw/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=O9Ews4MqOQw"
 	},
 	{
 		"video_id": "XplpMSAChko",
@@ -1300,58 +1222,6 @@
 		"url": "https://www.youtube.com/watch?v=t1rHU40Oh4k"
 	},
 	{
-		"video_id": "T45-JRgnPuA",
-		"title": "Daily Standup Live | Sep 22",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-23T04:44:49Z",
-		"actual_start_time": "2025-09-22T16:21:51Z",
-		"actual_end_time": "2025-09-22T16:42:16Z",
-		"scheduled_start_time": "2025-09-22T16:25:00Z",
-		"duration": "PT20M40S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/T45-JRgnPuA/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=T45-JRgnPuA"
-	},
-	{
-		"video_id": "wo5MhRJ4fxs",
-		"title": "Daily Standup Live | Sep 23",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-23T14:44:02Z",
-		"actual_start_time": "2025-09-23T14:33:52Z",
-		"actual_end_time": "2025-09-23T14:41:05Z",
-		"scheduled_start_time": "2025-09-23T14:30:00Z",
-		"duration": "PT7M30S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/wo5MhRJ4fxs/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=wo5MhRJ4fxs"
-	},
-	{
-		"video_id": "6H4WQlysgN4",
-		"title": "Daily Standup Live | Sep 24",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-25T02:55:49Z",
-		"actual_start_time": "2025-09-24T14:33:21Z",
-		"actual_end_time": "2025-09-24T14:53:09Z",
-		"scheduled_start_time": "2025-09-24T14:30:00Z",
-		"duration": "PT20M1S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/6H4WQlysgN4/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=6H4WQlysgN4"
-	},
-	{
-		"video_id": "kXJnPwNWv0k",
-		"title": "Daily Standup Live | Sep 25",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-25T14:42:22Z",
-		"actual_start_time": "2025-09-25T14:30:31Z",
-		"actual_end_time": "2025-09-25T14:38:02Z",
-		"scheduled_start_time": "2025-09-25T14:30:00Z",
-		"duration": "PT7M46S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/kXJnPwNWv0k/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=kXJnPwNWv0k"
-	},
-	{
 		"video_id": "k3HKJrQXZA0",
 		"title": "LIVE 🟡 Instagram Profile Grid UI 📷 HTML + Vanilla CSS Project (Part 3)",
 		"description": "🔴 Today we’re continuing a brand new Instagram-inspired project — the profile page and grid layout. 📷\n\nWe’ll cover → Using CSS Grid the grid for posts\n\nAs always, it’s all vanilla HTML, CSS, and JavaScript. No frameworks, just clean frontend code built from scratch.\n\n📌 Technologies: HTML • CSS • JavaScript\n\n💬 Need help with your code or a project? I offer 1:1 live coaching and async code reviews. Clear pricing, no back-and-forth — just book a time that works for you. ✅ https://angelajholden.com/consulting/\n\n🐙 GitHub repo: https://github.com/angelajholden/ig-grid-profile\n\n🔗 Github page: https://angelajholden.github.io/ig-grid-profile\n\n🍉 Github Sponsors\nhttps://github.com/sponsors/angelajholden\n\n🍋 Support the stream\nhttps://www.paypal.me/angelajholden",
@@ -1376,45 +1246,6 @@
 		"privacy_status": "public",
 		"thumbnail_url": "https://i.ytimg.com/vi/o6F66-tP8lc/hqdefault.jpg",
 		"url": "https://www.youtube.com/watch?v=o6F66-tP8lc"
-	},
-	{
-		"video_id": "-hMp3sayEAI",
-		"title": "Daily Standup Live | Sep 29",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-29T14:56:33Z",
-		"actual_start_time": "2025-09-29T14:45:51Z",
-		"actual_end_time": "2025-09-29T14:54:31Z",
-		"scheduled_start_time": "2025-09-29T14:45:00Z",
-		"duration": "PT8M56S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/-hMp3sayEAI/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=-hMp3sayEAI"
-	},
-	{
-		"video_id": "lUdwc_QOFlk",
-		"title": "Daily Standup Live | Sep 30",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-09-30T14:46:44Z",
-		"actual_start_time": "2025-09-30T14:31:11Z",
-		"actual_end_time": "2025-09-30T14:43:53Z",
-		"scheduled_start_time": "2025-09-30T14:30:00Z",
-		"duration": "PT12M56S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/lUdwc_QOFlk/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=lUdwc_QOFlk"
-	},
-	{
-		"video_id": "wUJ3f8aOfJQ",
-		"title": "Daily Standup Live | Oct 1",
-		"description": "Daily standup live. What are you working on? Let me know in the chat, or the comments if you're here for the replay. Cheers! 💛\n\nThree questions:\n\n1) What I did yesterday\n2) What I’m doing today\n3) What’s blocking me\n\n🐙 GitHub: https://github.com/angelajholden",
-		"published_at": "2025-10-01T14:46:14Z",
-		"actual_start_time": "2025-10-01T14:32:56Z",
-		"actual_end_time": "2025-10-01T14:43:58Z",
-		"scheduled_start_time": "2025-10-01T14:30:00Z",
-		"duration": "PT11M11S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/wUJ3f8aOfJQ/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=wUJ3f8aOfJQ"
 	},
 	{
 		"video_id": "3aKRW9La43A",
@@ -1467,19 +1298,6 @@
 		"privacy_status": "public",
 		"thumbnail_url": "https://i.ytimg.com/vi/hCp6lGH4UZs/hqdefault.jpg",
 		"url": "https://www.youtube.com/watch?v=hCp6lGH4UZs"
-	},
-	{
-		"video_id": "0N2Rn6-3pFY",
-		"title": "LIVE 🌻 Decompress w/Me | Plants vs. Zombies + Chat",
-		"description": "🔴 It’s Wednesday — time to decompress with Plants vs. Zombies 🌻 Casual gaming + chat stream.\n\nLet’s decompress together with a cozy round (or five) of Plants vs. Zombies on iPad. No coding tonight, just relaxing gameplay, chill chat, and midweek vibes.\n\nIf you’re new here, I’m Angela — a frontend developer who usually streams real-time HTML, CSS, and JavaScript builds on weekends. But Wednesdays? That’s when we slow down and reset.\n\nGrab your favorite drink (coffee, wine, margarita, whatever works), and hang out while I play Plants vs. Zombies and catch up with chat. 🌻\n\n🧠 What to expect:\n– Chill, no-pressure gaming\n– Midweek conversation + community\n– Cozy hangout energy\n\n💻 If you like this vibe:\n– Weekend dev streams (HTML / CSS / JS builds)\n– Tutorials, compilations, and behind-the-scenes videos\n– Occasional midweek decompression\n\n🌿 Subscribe if you like real-time development, honest conversation, and the occasional Wednesday night break from everything.",
-		"published_at": "2025-10-16T14:30:46Z",
-		"actual_start_time": "2025-10-15T23:31:31Z",
-		"actual_end_time": "2025-10-16T02:08:54Z",
-		"scheduled_start_time": "2025-10-15T23:30:00Z",
-		"duration": "PT2H37M35S",
-		"privacy_status": "public",
-		"thumbnail_url": "https://i.ytimg.com/vi/0N2Rn6-3pFY/hqdefault.jpg",
-		"url": "https://www.youtube.com/watch?v=0N2Rn6-3pFY"
 	},
 	{
 		"video_id": "Hk-Ef-BOfy4",
@@ -1860,8 +1678,8 @@
 	},
 	{
 		"video_id": "8EXspO8iFC0",
-		"title": "LIVE 🟤 Building a Bakery Menu with HTML, vanilla CSS + JS Project | Part 5",
-		"description": "🔴 Ugly? Maybe. A11y? Yes!. Let’s do it.\n\n#html #css #javascript \n\nThe plan:\n→ HTML5 semantic structure\n→ CSS Grid + Flexbox for layout\n→ Accessibility (A11y) best practices\n→ Responsive design workflow\n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden",
+		"title": "Designing a Bakery Menu Before Writing the HTML | Part 5",
+		"description": "Today I planned the menu page for Coffee But No Tea before building it in HTML and CSS. I compared a product-focused coffee chain menu with a simpler local diner menu, then designed an approach that combines useful descriptions, prices, and small food images without turning the site into an e-commerce experience. In Affinity Photo, I worked through the category structure, typography, spacing, image placement, and borders for cakes, pies, and the other bakery sections.\n\nI also refined the existing website by adding subtle borders to the homepage content panels, separating café items with dotted rules, fixing navigation paths across the inner pages, and narrowing the contact form with CSS `:has()`. After preparing the Menu and About page structure, I deployed the changes and checked the site in multiple browsers and on a real phone. That QA pass exposed a contrast concern around the logo and hero images that I added to the project’s follow-up list.\n\nTopics covered:\n\n- Comparing e-commerce menus with text-first local restaurant menus\n- Planning useful menu descriptions for accessibility and SEO\n- Designing a two-column bakery menu in Affinity Photo\n- Combining product titles, prices, descriptions, and thumbnails\n- Calculating line height and page guides for the design\n- Adding subtle borders and separators to homepage content\n- Fixing relative navigation paths on nested HTML pages\n- Narrowing a contact form conditionally with CSS `:has()`\n- Preparing semantic heading structure for new inner pages\n- Testing navigation, layout, and contrast across browsers and mobile\n\nThis stream is for frontend developers and career changers who want to see how design decisions, semantic structure, responsive behavior, and QA fit together before a page is fully implemented. Subscribe to follow the next stream, where I’ll turn this menu design into a responsive HTML and CSS page.\n\n#html #css #javascript \n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden\n\n📚 Chapters\n00:00:00 Starting Soon\n00:01:38 Intro and Welcome\n00:07:16 Planning a Design-Focused Stream\n00:11:17 Comparing Online Menu Designs\n00:31:49 Starting the Affinity Design\n00:36:52 Preparing the Menu Document\n00:45:24 Designing the Menu Structure\n00:57:26 Adding Product Image Thumbnails\n01:04:38 Refining Homepage Content Panels\n01:21:50 Moving Back Into Code\n01:24:30 Fixing Navigation and Form Width\n01:30:11 Implementing Homepage Borders\n01:39:11 Preparing the Inner Pages\n01:44:11 Browser and Mobile QA\n02:02:23 Planning the Next Streams",
 		"published_at": "2026-01-18T07:04:55Z",
 		"actual_start_time": "2026-01-17T16:34:06Z",
 		"actual_end_time": "2026-01-17T18:42:26Z",
@@ -1873,8 +1691,8 @@
 	},
 	{
 		"video_id": "KPd5_54SdXI",
-		"title": "LIVE 🟤 Working on a Website. Come + relax w/me. HTML CSS JS • Part 6",
-		"description": "🔴 Ugly? Maybe. A11y? Questionable. Let’s do it.\n\n#html #css #javascript \n\nThe plan:\n→ HTML5 semantic structure\n→ CSS Grid + Flexbox for layout\n→ Accessibility (A11y) best practices\n→ Responsive design workflow\n\n🟠 REPO: https://github.com/angelajholden\n🟠 DEMO: https://angelajholden.github.io\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden",
+		"title": "Building a Responsive Bakery Menu with HTML and CSS | Part 6",
+		"description": "Today I built the Coffee But No Tea menu page with semantic HTML, CSS Grid, and Flexbox. I started by defining a clear heading hierarchy for the menu, its categories, and each individual product. Then I created the two-column desktop layout, used Flexbox for product titles and prices, added square image containers, and worked through the responsive behavior for tablets and phones.\n\nThe nested layout exposed a CSS Grid sizing issue, so I investigated why child grids do not automatically inherit their parent’s tracks, learned where `subgrid` can help, and chose Flexbox for the product content in this implementation. Once the markup was stable, I gave ChatGPT the exact HTML structure and asked it to return realistic titles, prices, and descriptions in that format. I then refined the layout with real content, sourced food photos from Unsplash, batch-optimized them in Affinity Photo, and tested the deployed menu on mobile.\n\nTopics covered:\n\n- Structuring a menu with semantic sections, articles, and headings\n- Combining CSS Grid and Flexbox in one responsive layout\n- Debugging independent nested grid sizing\n- Learning where CSS `subgrid` may be useful\n- Calculating flexible widths around fixed-size thumbnails\n- Writing responsive breakpoints for desktop and mobile menus\n- Prompting ChatGPT with existing HTML markup\n- Refining a design after replacing placeholder text with real content\n- Sourcing bakery images from Unsplash\n- Batch-resizing and compressing images in Affinity Photo\n- Reusing one optimized image across different layouts\n- Testing spacing, balance, and image size on a real phone\n\nThis stream is for frontend developers who want to see a complete content-driven workflow: semantic markup, layout debugging, AI-assisted copy, image optimization, and responsive QA. Subscribe to follow the final About page, site refinements, and production deployment.\n\n#html #css #javascript \n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden\n\n📚 Chapters\n00:00:00 Starting Soon\n00:02:02 Intro and Welcome\n00:03:13 Reviewing the Project Plan\n00:13:54 Image Storage and Optimization\n00:27:53 Planning Semantic Menu Markup\n00:39:47 Combining Grid and Flexbox\n00:46:48 Debugging the Nested Grid\n00:58:29 Making the Menu Responsive\n01:08:31 Generating Content with ChatGPT\n01:17:09 Refining the Real Content\n01:33:57 Sourcing Images from Unsplash\n01:38:35 Batch Optimizing the Images\n01:49:21 Reusing Flexible Image Assets\n01:52:22 Adding More Menu Images\n02:04:50 Mobile QA and Next Steps",
 		"published_at": "2026-01-19T07:45:15Z",
 		"actual_start_time": "2026-01-18T16:29:57Z",
 		"actual_end_time": "2026-01-18T18:40:37Z",
@@ -1886,8 +1704,8 @@
 	},
 	{
 		"video_id": "S05qYRnojcQ",
-		"title": "LIVE 🟤 Working on a Static Website | HTML CSS JS Project | Part 7",
-		"description": "🔴 Ugly? Maybe. A11y? Yes!. Let’s do it.\n\n#html #css #javascript \n\nThe plan:\n→ HTML5 semantic structure\n→ CSS Grid + Flexbox for layout\n→ Accessibility (A11y) best practices\n→ Responsive design workflow\n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden",
+		"title": "Responsive Website QA and Final CSS Refinements | Part 7",
+		"description": "Today I worked through the Coffee But No Tea QA list and polished the site before its final About page and production deployment. I finished the coffee images, then restructured the menu so every category occupies its own full-width row with a two-column product grid inside. Alternating section backgrounds created with `:has()` and `:nth-of-type(even)` make the categories easier to scan, while revised breakpoints, gaps, margins, and padding keep the products comfortable from large desktop screens down to mobile.\n\nI also turned the text logo into a home link on every page, researched the WCAG exception for logo contrast, and added non-color hover and keyboard-focus cues for its interactive state. Then I tightened the homepage grid, generated the copyright year with JavaScript, replaced the fictional footer map with a real La Mesa location, made that map a linked image with a scale transition, and changed its aspect ratio at smaller widths. Browser and phone QA caught an important issue: the new footer markup and paths had only been correct on the homepage. I updated all four pages, fixed the relative image paths, redeployed, and verified the result.\n\nTopics covered:\n\n- Restructuring menu categories into full-width rows with nested product grids\n- Alternating menu backgrounds with `:has()` and `:nth-of-type(even)`\n- Moving responsive layout changes to more appropriate breakpoints\n- Linking a text-based logo to the correct homepage from nested pages\n- Applying logo contrast exceptions without ignoring interaction accessibility\n- Adding visible hover and focus cues that do not rely only on color\n- Organizing a long vanilla CSS file and considering Sass partials\n- Generating a dynamic copyright year with a small JavaScript function\n- Linking and animating a replacement footer map with responsive aspect ratios\n- Finding and fixing cross-page markup and relative-path bugs on a real phone\n\nThis video is for frontend developers who want to see what finishing a website actually looks like: small layout decisions, accessibility checks, repeated markup updates, browser testing, and bugs that only appear after deployment. Subscribe for the final Coffee But No Tea stream, where I’ll build the About page, create the production virtual host, deploy the site to its own subdomain, and retest the contact form.\n\n#html #css #javascript \n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden\n\n📚 Chapters\n00:00:00 Starting Soon\n00:00:57 Intro\n00:07:37 Reviewing the QA Plan\n00:13:49 Adding the Final Coffee Images\n00:19:23 Restructuring the Menu Layout\n00:33:48 Alternating Menu Section Backgrounds\n00:47:02 Refining the Responsive Menu\n00:54:56 Linking the Logo Sitewide\n01:00:09 Checking Logo Accessibility\n01:09:52 Adjusting Homepage Spacing\n01:22:56 Organizing a Large CSS File\n01:27:36 Adding a Dynamic Copyright Year\n01:33:03 Updating the Footer Map\n01:43:32 Browser and Mobile QA\n01:55:14 Fixing the Cross-Page Footer",
 		"published_at": "2026-01-21T07:40:00Z",
 		"actual_start_time": "2026-01-20T16:36:56Z",
 		"actual_end_time": "2026-01-20T18:46:03Z",
@@ -1899,8 +1717,8 @@
 	},
 	{
 		"video_id": "RD76jpnkDOI",
-		"title": "LIVE 🟤 Finishing a Static Website + Creating a Virtual Host to Deploy | Part 8",
-		"description": "🔴 Ugly? Maybe. A11y? Yes!. Let’s do it.\n\n#html #css #javascript \n\nThe plan:\n→ HTML5 semantic structure\n→ CSS Grid + Flexbox for layout\n→ Accessibility (A11y) best practices\n→ Responsive design workflow\n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden",
+		"title": "Build and Deploy a Static Website to DigitalOcean | Part 8",
+		"description": "Today I finished Coffee But No Tea and launched it as a production website on DigitalOcean. First I built the final About page around an embedded YouTube Short. A 9:16 figure controls the iframe’s vertical aspect ratio, CSS Grid places the video beside the bakery story on larger screens, and a media query stacks everything cleanly on mobile. I also increased the site-wide paragraph size after the new page exposed inconsistencies in my original typography planning.\n\nThen I deployed the static site to `coffee.practicelayouts.com` from the ground up. I created the DNS records, attached the subdomain to the existing DigitalOcean droplet, updated the Ubuntu server, created the production directory and permissions, transferred only the necessary files over SFTP with FileZilla, copied and edited an Apache port 80 virtual host, enabled it, reloaded Apache, and installed the HTTPS certificate with Certbot. After verifying the HTTP-to-HTTPS redirect, I tested every page on desktop and mobile and completed the entire Formspree workflow: submission record, notification email, Reply behavior, and confirmation from the recipient.\n\nTopics covered:\n\n- Embedding a YouTube Short in a responsive 9:16 iframe\n- Building a two-column About page with CSS Grid and a mobile stack\n- Adjusting global paragraph typography after testing real page content\n- Creating DNS records for a new production subdomain\n- Updating and rebooting a self-managed Ubuntu VPS\n- Creating the web root, ownership, group, and permission settings\n- Deploying only production assets through SFTP and FileZilla\n- Copying, editing, enabling, and reloading an Apache virtual host\n- Installing SSL with Certbot and verifying the HTTPS redirect\n- Testing Formspree records, email delivery, Reply behavior, and mobile UX\n\n#html #css #javascript \n\n🟠 REPO: https://github.com/angelajholden/coffee-but-no-tea\n🟠 DEMO: https://angelajholden.github.io/coffee-but-no-tea\n\n🔵 CODE REVIEWS: https://angelajholden.com/consulting\n🔵 EMAIL: info@angelajholden.com\n\n🟢 SPONSOR: https://github.com/sponsors/angelajholden\n🟢 DONATE: https://www.paypal.me/angelajholden\n\n📚 Chapters\n00:00:00 Starting Soon\n00:02:57 Intro and Welcome\n00:07:17 Reviewing the Finished Website\n00:10:36 Planning the Production Deployment\n00:17:42 Planning the Final About Page\n00:19:40 Embedding a YouTube Short\n00:32:56 Improving Workplace Communication\n00:37:41 Building the About Page Grid\n00:46:17 Refining the Site Typography\n00:53:31 Configuring DNS and DigitalOcean\n00:59:47 Preparing the Production Server\n01:12:09 Deploying Files with SFTP\n01:16:29 Configuring Apache and HTTPS\n01:29:40 Testing the Production Website\n01:47:23 Planning the Scenic Project",
 		"published_at": "2026-01-23T06:58:00Z",
 		"actual_start_time": "2026-01-22T16:35:46Z",
 		"actual_end_time": "2026-01-22T18:38:58Z",
@@ -2776,7 +2594,7 @@
 		"actual_start_time": "2026-05-10T15:33:21Z",
 		"actual_end_time": "2026-05-10T17:33:25Z",
 		"scheduled_start_time": "2026-05-10T15:30:00Z",
-		"duration": "PT2H20S",
+		"duration": "PT2H21S",
 		"privacy_status": "public",
 		"thumbnail_url": "https://i.ytimg.com/vi/rjUcACC1M6I/hqdefault.jpg",
 		"url": "https://www.youtube.com/watch?v=rjUcACC1M6I"
@@ -2815,7 +2633,7 @@
 		"actual_start_time": "2026-05-16T15:36:56Z",
 		"actual_end_time": "2026-05-16T17:39:11Z",
 		"scheduled_start_time": "2026-05-16T15:30:00Z",
-		"duration": "PT2H2M30S",
+		"duration": "PT2H2M31S",
 		"privacy_status": "public",
 		"thumbnail_url": "https://i.ytimg.com/vi/s6cTlLj8NJI/hqdefault.jpg",
 		"url": "https://www.youtube.com/watch?v=s6cTlLj8NJI"
