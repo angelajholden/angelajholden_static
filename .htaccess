@@ -1,6 +1,9 @@
-RewriteEngine On
+# MAMP may run without mod_rewrite; the site only uses it for this redirect.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
 
-RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
-RewriteRule ^index\.php$ / [R=301,L]
+    RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
+    RewriteRule ^index\.php$ / [R=301,L]
+</IfModule>
 
 ErrorDocument 404 /404/index.php
